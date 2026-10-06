@@ -1,0 +1,3262 @@
+{
+  "categories": [
+    {
+      "key": "all",
+      "az": "Hamısı",
+      "en": "All",
+      "ru": "Все"
+    },
+    {
+      "key": "Breakfast",
+      "az": "Səhər yeməyi",
+      "en": "Breakfast",
+      "ru": "Завтраки"
+    },
+    {
+      "key": "Soup",
+      "az": "Şorbalar",
+      "en": "Soup",
+      "ru": "Супы"
+    },
+    {
+      "key": "Salad",
+      "az": "Salatlar",
+      "en": "Salad",
+      "ru": "Салаты"
+    },
+    {
+      "key": "Appetizer",
+      "az": "Qəlyanaltılar",
+      "en": "Appetizer",
+      "ru": "Закуски"
+    },
+    {
+      "key": "Burger",
+      "az": "Burgerlər",
+      "en": "Burger",
+      "ru": "Бургеры"
+    },
+    {
+      "key": "Dessert",
+      "az": "Desertlər",
+      "en": "Dessert",
+      "ru": "Десерты"
+    },
+    {
+      "key": "Drinks",
+      "az": "İçkilər",
+      "en": "Drinks",
+      "ru": "Напитки"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": {
+        "az": "1 nəfərlik səhər yeməyi",
+        "en": "Breakfast for 1 person",
+        "ru": "Завтрак на 1 персону"
+      },
+      "category": "Breakfast",
+      "price": 25.0,
+      "image": "assets/images/breakfast.jpg",
+      "description": {
+        "az": "Pomidorlu yumurta, pendirli omlet və ya qızardılmış yumurta seçimləri ilə isti yeməklər.",
+        "en": "Hot meals with a choice of Eggs with tomato, cheese omelet, or fried egg.",
+        "ru": "Горячие блюда на выбор: яйца с помидорами, омлет с сыром или жареное яйцо."
+      },
+      "chef": true
+    },
+    {
+      "id": 2,
+      "name": {
+        "az": "Mərci şorbası",
+        "en": "Lentil Soup",
+        "ru": "Чечевичный суп"
+      },
+      "category": "Soup",
+      "price": 7.0,
+      "image": "assets/images/lentil_soup.jpg",
+      "description": {
+        "az": "Ənənəvi, rahatladıcı qırmızı mərci şorbası.",
+        "en": "Traditional comforting red lentil soup.",
+        "ru": "Традиционный согревающий суп из красной чечевицы."
+      },
+      "chef": false
+    },
+    {
+      "id": 3,
+      "name": {
+        "az": "Pomidor şorbası",
+        "en": "Tomato Soup",
+        "ru": "Томатный суп"
+      },
+      "category": "Soup",
+      "price": 8.0,
+      "image": "assets/images/tomato_soup.jpg",
+      "description": {
+        "az": "İsti servis edilən zəngin və kremli pomidor şorbası.",
+        "en": "Rich and creamy tomato soup served warm.",
+        "ru": "Насыщенный сливочный томатный суп, подаётся горячим."
+      },
+      "chef": false
+    },
+    {
+      "id": 4,
+      "name": {
+        "az": "Kremli göbələk şorbası",
+        "en": "Creamy Mushroom Soup",
+        "ru": "Сливочный грибной суп"
+      },
+      "category": "Soup",
+      "price": 9.0,
+      "image": "assets/images/mushroom_soup.jpg",
+      "description": {
+        "az": "Təzə meşə göbələklərindən hazırlanmış zərif krem şorba.",
+        "en": "Velvety soup made with fresh wild mushrooms.",
+        "ru": "Нежный крем-суп из свежих лесных грибов."
+      },
+      "chef": false
+    },
+    {
+      "id": 5,
+      "name": {
+        "az": "Düşbərə",
+        "en": "Dushbara",
+        "ru": "Дюшбара"
+      },
+      "category": "Soup",
+      "price": 12.0,
+      "image": "assets/images/dushbara.jpg",
+      "description": {
+        "az": "Dadlı bulyonda təqdim olunan ənənəvi Azərbaycan xırda ət xəngəlləri.",
+        "en": "Traditional Azerbaijani miniature meat dumplings in a flavorful broth.",
+        "ru": "Традиционные азербайджанские маленькие мясные пельмени в ароматном бульоне."
+      },
+      "chef": true
+    },
+    {
+      "id": 6,
+      "name": {
+        "az": "Çoban salatı",
+        "en": "Shepherd's Salad",
+        "ru": "Шопский салат"
+      },
+      "category": "Salad",
+      "price": 10.0,
+      "image": "assets/images/shepherds_salad.jpg",
+      "description": {
+        "az": "Pomidor, xiyar və göyərtidən hazırlanmış klassik və təravətli qarışıq.",
+        "en": "Classic refreshing mix of tomatoes, cucumbers, and herbs.",
+        "ru": "Классическое освежающее сочетание помидоров, огурцов и зелени."
+      },
+      "chef": false
+    },
+    {
+      "id": 7,
+      "name": {
+        "az": "Albalı pomidorlu salat",
+        "en": "Tomato Salad with Cherry",
+        "ru": "Салат с помидорами черри"
+      },
+      "category": "Salad",
+      "price": 12.0,
+      "image": "assets/images/tomato_cherry_salad.jpg",
+      "description": {
+        "az": "Şirin albalı pomidorları ilə zənginləşdirilmiş ənənəvi salat.",
+        "en": "Elevated traditional salad with sweet cherry tomatoes.",
+        "ru": "Традиционный салат со сладкими помидорами черри."
+      },
+      "chef": false
+    },
+    {
+      "id": 8,
+      "name": {
+        "az": "Xırtıldayan badımcan salatı",
+        "en": "Crispy Eggplant Salad",
+        "ru": "Салат с хрустящими баклажанами"
+      },
+      "category": "Salad",
+      "price": 16.0,
+      "image": "assets/images/crispy_eggplant.jpg",
+      "description": {
+        "az": "Xırtıldayan qızardılmış badımcanlar şirin çili sousu ilə qarışdırılır.",
+        "en": "Crunchy fried eggplants tossed in a sweet chili sauce.",
+        "ru": "Хрустящие жареные баклажаны в сладком соусе чили."
+      },
+      "chef": true
+    },
+    {
+      "id": 9,
+      "name": {
+        "az": "Toyuqlu Sezar salatı",
+        "en": "Caesar Salad with Chicken",
+        "ru": "Салат Цезарь с курицей"
+      },
+      "category": "Salad",
+      "price": 18.0,
+      "image": "assets/images/caesar_chicken.jpg",
+      "description": {
+        "az": "Romen kahısı, qril toyuq filesi, kruton və Sezar sousu.",
+        "en": "Romaine lettuce, grilled chicken breast, croutons, and Caesar dressing.",
+        "ru": "Салат ромэн, куриная грудка на гриле, крутоны и соус Цезарь."
+      },
+      "chef": false
+    },
+    {
+      "id": 10,
+      "name": {
+        "az": "Krevetkalı Sezar salatı",
+        "en": "Caesar Salad with Prawns",
+        "ru": "Салат Цезарь с креветками"
+      },
+      "category": "Salad",
+      "price": 22.0,
+      "image": "assets/images/caesar_prawns.jpg",
+      "description": {
+        "az": "Şirəli qril krevetkaları ilə tamamlanan klassik Sezar salatı.",
+        "en": "Classic Caesar salad topped with succulent grilled prawns.",
+        "ru": "Классический салат Цезарь с сочными креветками на гриле."
+      },
+      "chef": false
+    },
+    {
+      "id": 11,
+      "name": {
+        "az": "Popkorn krevetkalı salat",
+        "en": "Prawns Popcorn Salad",
+        "ru": "Салат с креветками попкорн"
+      },
+      "category": "Salad",
+      "price": 25.0,
+      "image": "assets/images/prawns_popcorn.jpg",
+      "description": {
+        "az": "Xırtıldayan popkorn krevetkaları tropik manqo sousu ilə təqdim olunur.",
+        "en": "Crispy popcorn prawns served with a tropical mango sauce.",
+        "ru": "Хрустящие креветки попкорн с тропическим соусом манго."
+      },
+      "chef": true
+    },
+    {
+      "id": 12,
+      "name": {
+        "az": "Popkorn toyuqlu salat",
+        "en": "Chicken Popcorn Salad",
+        "ru": "Салат с курицей попкорн"
+      },
+      "category": "Salad",
+      "price": 18.0,
+      "image": "assets/images/chicken_popcorn.jpg",
+      "description": {
+        "az": "İmza manqo sousu ilə təqdim olunan kiçik xırtıldayan toyuq tikələri.",
+        "en": "Bite-sized crispy chicken with a signature mango sauce.",
+        "ru": "Небольшие хрустящие кусочки курицы с фирменным соусом манго."
+      },
+      "chef": false
+    },
+    {
+      "id": 13,
+      "name": {
+        "az": "Caz salatı",
+        "en": "Jazz Salad",
+        "ru": "Салат Джаз"
+      },
+      "category": "Salad",
+      "price": 18.0,
+      "image": "assets/images/jazz_salad.jpg",
+      "description": {
+        "az": "Təzə məhsulların ahəngdar qarışığından hazırlanan xüsusi ev salatımız.",
+        "en": "Our house special salad with a rhythmic blend of fresh ingredients.",
+        "ru": "Наш фирменный салат с гармоничным сочетанием свежих ингредиентов."
+      },
+      "chef": true
+    },
+    {
+      "id": 14,
+      "name": {
+        "az": "Düyü salatı",
+        "en": "Rice Salad",
+        "ru": "Рисовый салат"
+      },
+      "category": "Salad",
+      "price": 12.0,
+      "image": "assets/images/rice_salad.jpg",
+      "description": {
+        "az": "Yüngül və ədviyyatlı düyü salatı.",
+        "en": "Light and savory seasoned rice salad.",
+        "ru": "Лёгкий пикантный салат из приправленного риса."
+      },
+      "chef": false
+    },
+    {
+      "id": 15,
+      "name": {
+        "az": "Yunan salatı",
+        "en": "Greek Salad",
+        "ru": "Греческий салат"
+      },
+      "category": "Salad",
+      "price": 12.0,
+      "image": "assets/images/greek_salad.jpg",
+      "description": {
+        "az": "Feta pendiri, zeytun, xiyar, pomidor və qırmızı soğan zeytun yağı ilə.",
+        "en": "Feta cheese, olives, cucumbers, tomatoes, and red onions with olive oil.",
+        "ru": "Сыр фета, оливки, огурцы, помидоры и красный лук с оливковым маслом."
+      },
+      "chef": false
+    },
+    {
+      "id": 16,
+      "name": {
+        "az": "Burrata salatı",
+        "en": "Burrata Salad",
+        "ru": "Салат с бурратой"
+      },
+      "category": "Salad",
+      "price": 19.0,
+      "image": "assets/images/burrata_salad.jpg",
+      "description": {
+        "az": "Təzə pomidor və reyhan pestosu üzərində təqdim olunan kremli burrata pendiri.",
+        "en": "Creamy burrata cheese served over a bed of fresh tomatoes and basil pesto.",
+        "ru": "Нежная буррата на свежих помидорах с соусом песто из базилика."
+      },
+      "chef": true
+    },
+    {
+      "id": 17,
+      "name": {
+        "az": "Keçi pendirli qızardılmış çuğundur salatı",
+        "en": "Roasted Beetroot Salad with Goat Cheese",
+        "ru": "Салат из запечённой свёклы с козьим сыром"
+      },
+      "category": "Salad",
+      "price": 19.0,
+      "image": "assets/images/beetroot_salad.jpg",
+      "description": {
+        "az": "Qovrulmuş çuğundur turşməzə keçi pendiri və sitrus sousu ilə.",
+        "en": "Earthy roasted beetroots paired with tangy goat cheese and citrus sauce.",
+        "ru": "Запечённая свёкла с пикантным козьим сыром и цитрусовым соусом."
+      },
+      "chef": false
+    },
+    {
+      "id": 18,
+      "name": {
+        "az": "Haydari",
+        "en": "Haydari",
+        "ru": "Хайдари"
+      },
+      "category": "Appetizer",
+      "price": 9.0,
+      "image": "assets/images/haydari.jpg",
+      "description": {
+        "az": "Sarımsaq və təzə göyərti ilə hazırlanmış ənənəvi süzülmüş qatıq məzəsi.",
+        "en": "Traditional strained yogurt dip with garlic and fresh herbs.",
+        "ru": "Традиционная закуска из процеженного йогурта с чесноком и свежей зеленью."
+      },
+      "chef": false
+    },
+    {
+      "id": 19,
+      "name": {
+        "az": "Atom",
+        "en": "Atom",
+        "ru": "Атом"
+      },
+      "category": "Appetizer",
+      "price": 9.0,
+      "image": "assets/images/atom.jpg",
+      "description": {
+        "az": "Qovrulmuş acı çili bibərləri ilə tamamlanan ədviyyatlı qatıq məzəsi.",
+        "en": "Spicy yogurt dip topped with roasted hot chili peppers.",
+        "ru": "Острая йогуртовая закуска с запечённым острым перцем чили."
+      },
+      "chef": false
+    },
+    {
+      "id": 20,
+      "name": {
+        "az": "Babaqanuş",
+        "en": "Babagonoush",
+        "ru": "Бабагануш"
+      },
+      "category": "Appetizer",
+      "price": 10.0,
+      "image": "assets/images/babagonoush.jpg",
+      "description": {
+        "az": "Tahin və zeytun yağı ilə hazırlanmış hisə verilmiş qovrulmuş badımcan məzəsi.",
+        "en": "Smoky roasted eggplant dip with tahini and olive oil.",
+        "ru": "Закуска из запечённых баклажанов с дымным ароматом, тахини и оливковым маслом."
+      },
+      "chef": false
+    },
+    {
+      "id": 21,
+      "name": {
+        "az": "Müxtəlif zeytunlar",
+        "en": "Olives Assorted",
+        "ru": "Ассорти оливок"
+      },
+      "category": "Appetizer",
+      "price": 10.0,
+      "image": "assets/images/olives.jpg",
+      "description": {
+        "az": "Premium yerli və xarici marinad edilmiş zeytunlardan seçim.",
+        "en": "A selection of premium marinated local and international olives.",
+        "ru": "Ассорти премиальных маринованных местных и зарубежных оливок."
+      },
+      "chef": false
+    },
+    {
+      "id": 22,
+      "name": {
+        "az": "Qarışıq turşular",
+        "en": "Mixed Pickles",
+        "ru": "Ассорти солений"
+      },
+      "category": "Appetizer",
+      "price": 12.0,
+      "image": "assets/images/pickles.jpg",
+      "description": {
+        "az": "Evdə hazırlanmış xırtıldayan və turşməzə tərəvəz turşuları assortisi.",
+        "en": "Assorted crisp and tangy house-made pickled vegetables.",
+        "ru": "Ассорти хрустящих пикантных домашних солений."
+      },
+      "chef": false
+    },
+    {
+      "id": 23,
+      "name": {
+        "az": "Yerli pendir assortisi",
+        "en": "Local Cheese Platter",
+        "ru": "Ассорти местных сыров"
+      },
+      "category": "Appetizer",
+      "price": 16.0,
+      "image": "assets/images/local_cheese.jpg",
+      "description": {
+        "az": "Ənənəvi Azərbaycan pendirlərindən seçilmiş qarışıq assorti.",
+        "en": "A curated selection of traditional mixed Azerbaijani cheeses.",
+        "ru": "Подборка традиционных азербайджанских сыров."
+      },
+      "chef": false
+    },
+    {
+      "id": 24,
+      "name": {
+        "az": "Qarışıq pendir assortisi",
+        "en": "Mixed Cheese Platter",
+        "ru": "Ассорти сыров"
+      },
+      "category": "Appetizer",
+      "price": 35.0,
+      "image": "assets/images/mixed_cheese.jpg",
+      "description": {
+        "az": "Keyfiyyətli yerli və beynəlxalq pendirlərdən premium seçim.",
+        "en": "Premium collection of fine international and local cheeses.",
+        "ru": "Премиальная подборка качественных местных и зарубежных сыров."
+      },
+      "chef": false
+    },
+    {
+      "id": 25,
+      "name": {
+        "az": "Qarışıq ət assortisi",
+        "en": "Mixed Meat Platter",
+        "ru": "Ассорти мясных деликатесов"
+      },
+      "category": "Appetizer",
+      "price": 75.0,
+      "image": "assets/images/meat_platter.jpg",
+      "description": {
+        "az": "Premium qurudulmuş, hisə verilmiş və qovrulmuş ətlərdən zəngin seçim.",
+        "en": "Grand selection of premium cured, smoked, and roasted meats.",
+        "ru": "Большое ассорти премиальных вяленых, копчёных и запечённых мясных деликатесов."
+      },
+      "chef": true
+    },
+    {
+      "id": 26,
+      "name": {
+        "az": "Çarküteri assortisi",
+        "en": "Charcuterie",
+        "ru": "Чарcuterie ассорти"
+      },
+      "category": "Appetizer",
+      "price": 55.0,
+      "image": "assets/images/charcuterie.jpg",
+      "description": {
+        "az": "Qurman soyuq ət məhsulları və əlavə məhsullardan xüsusi seçim.",
+        "en": "Exquisite selection of gourmet cold cuts and accompaniments.",
+        "ru": "Изысканная подборка мясных деликатесов и дополнений."
+      },
+      "chef": false
+    },
+    {
+      "id": 27,
+      "name": {
+        "az": "Pomidorlu brusketta",
+        "en": "Bruschetta with Tomato",
+        "ru": "Брускетта с томатами"
+      },
+      "category": "Appetizer",
+      "price": 16.0,
+      "image": "assets/images/bruschetta_tomato.jpg",
+      "description": {
+        "az": "Doğranmış pomidor, sarımsaq, reyhan və zeytun yağı ilə tamamlanan qızardılmış çörək.",
+        "en": "Toasted bread topped with diced tomatoes, garlic, basil, and olive oil.",
+        "ru": "Поджаренный хлеб с нарезанными помидорами, чесноком, базиликом и оливковым маслом."
+      },
+      "chef": false
+    },
+    {
+      "id": 28,
+      "name": {
+        "az": "Avokadolu brusketta",
+        "en": "Bruschetta with Avocado",
+        "ru": "Брускетта с авокадо"
+      },
+      "category": "Appetizer",
+      "price": 18.0,
+      "image": "assets/images/bruschetta_avocado.jpg",
+      "description": {
+        "az": "Kremli əzilmiş avokado və ədviyyatlarla hazırlanan xırtıldayan çörək dilimləri.",
+        "en": "Crispy bread slices layered with creamy mashed avocado and seasoning.",
+        "ru": "Хрустящие ломтики хлеба с кремовым пюре из авокадо и приправами."
+      },
+      "chef": false
+    },
+    {
+      "id": 29,
+      "name": {
+        "az": "Somonlu brusketta",
+        "en": "Salmon Bruschetta",
+        "ru": "Брускетта с лососем"
+      },
+      "category": "Appetizer",
+      "price": 25.0,
+      "image": "assets/images/salmon_bruschetta.jpg",
+      "description": {
+        "az": "Premium hisə verilmiş qızılbalıq və krem pendirlə hazırlanmış zərif qızardılmış çörək.",
+        "en": "Elegant toasted bread with premium smoked salmon and cream cheese.",
+        "ru": "Поджаренный хлеб с премиальным копчёным лососем и сливочным сыром."
+      },
+      "chef": true
+    },
+    {
+      "id": 30,
+      "name": {
+        "az": "BBQ souslu qızardılmış toyuq qanadları",
+        "en": "Fried Chicken Wings with BBQ Sauce",
+        "ru": "Куриные крылышки с соусом BBQ"
+      },
+      "category": "Appetizer",
+      "price": 15.0,
+      "image": "assets/images/bbq_wings.jpg",
+      "description": {
+        "az": "Zəngin, hisli barbekü sousu ilə örtülmüş xırtıldayan qızardılmış qanadlar.",
+        "en": "Crispy fried wings glazed in rich, smoky barbecue sauce.",
+        "ru": "Хрустящие жареные крылышки в насыщенном дымном соусе барбекю."
+      },
+      "chef": false
+    },
+    {
+      "id": 31,
+      "name": {
+        "az": "Kartof fri ilə toyuq naggetsləri",
+        "en": "Chicken Nuggets with French Fries",
+        "ru": "Куриные наггетсы с картофелем фри"
+      },
+      "category": "Appetizer",
+      "price": 15.0,
+      "image": "assets/images/nuggets.jpg",
+      "description": {
+        "az": "Qızılı toyuq naggetsləri xırtıldayan kartof fri ilə təqdim olunur.",
+        "en": "Golden chicken nuggets served with a side of crispy fries.",
+        "ru": "Золотистые куриные наггетсы с хрустящим картофелем фри."
+      },
+      "chef": false
+    },
+    {
+      "id": 32,
+      "name": {
+        "az": "Mozzarella çubuqları",
+        "en": "Mozzarella Sticks",
+        "ru": "Палочки моцареллы"
+      },
+      "category": "Appetizer",
+      "price": 18.0,
+      "image": "assets/images/mozzarella_sticks.jpg",
+      "description": {
+        "az": "Qızılı çörək qırıntıları ilə örtülmüş, içi əriyən mozzarella pendiri.",
+        "en": "Melty, stringy mozzarella cheese coated in golden breadcrumbs.",
+        "ru": "Тягучая расплавленная моцарелла в золотистой панировке."
+      },
+      "chef": false
+    },
+    {
+      "id": 33,
+      "name": {
+        "az": "Tempura krevetkaları (6 ədəd)",
+        "en": "Prawns Tempura (6 pcs)",
+        "ru": "Креветки темпура (6 шт.)"
+      },
+      "category": "Appetizer",
+      "price": 25.0,
+      "image": "assets/images/prawns_tempura.jpg",
+      "description": {
+        "az": "Yüngül və xırtıldayan yapon üslublu xəmirdə krevetkalar.",
+        "en": "Light and crispy Japanese-style battered prawns.",
+        "ru": "Лёгкие и хрустящие креветки в японском стиле темпура."
+      },
+      "chef": true
+    },
+    {
+      "id": 34,
+      "name": {
+        "az": "Qarışıq göyərtili qutab",
+        "en": "Mixed Herb Qutab",
+        "ru": "Кутаб с зеленью"
+      },
+      "category": "Appetizer",
+      "price": 5.0,
+      "image": "assets/images/herb_qutab.jpg",
+      "description": {
+        "az": "Təzə göyərti ilə doldurulmuş ənənəvi nazik xəmir.",
+        "en": "Traditional thin dough filled with fresh green herbs.",
+        "ru": "Традиционное тонкое тесто с начинкой из свежей зелени."
+      },
+      "chef": false
+    },
+    {
+      "id": 35,
+      "name": {
+        "az": "Ət qutabı",
+        "en": "Meat Qutab",
+        "ru": "Кутаб с мясом"
+      },
+      "category": "Appetizer",
+      "price": 4.0,
+      "image": "assets/images/meat_qutab.jpg",
+      "description": {
+        "az": "Dadlı qiymə ilə doldurulmuş ənənəvi Azərbaycan nazik yuxa çörəyi.",
+        "en": "Traditional Azerbaijani thin flatbread stuffed with savory minced meat.",
+        "ru": "Традиционная азербайджанская тонкая лепёшка с пикантным мясным фаршем."
+      },
+      "chef": false
+    },
+    {
+      "id": 36,
+      "name": {
+        "az": "Mal əti burgeri və kartof fri",
+        "en": "Beef Burger and French Fries",
+        "ru": "Бургер с говядиной и картофелем фри"
+      },
+      "category": "Burger",
+      "price": 19.0,
+      "image": "assets/images/beef_burger.jpg",
+      "description": {
+        "az": "Klassik əlavələrlə hazırlanmış şirəli mal əti kotleti xırtıldayan kartof fri ilə.",
+        "en": "Juicy beef patty with classic toppings, served with crispy fries.",
+        "ru": "Сочная котлета из говядины с классическими добавками и хрустящим картофелем фри."
+      },
+      "chef": true
+    },
+    {
+      "id": 37,
+      "name": {
+        "az": "Toyuq burgeri və kartof fri",
+        "en": "Chicken Burger and French Fries",
+        "ru": "Куриный бургер и картофель фри"
+      },
+      "category": "Burger",
+      "price": 17.0,
+      "image": "assets/images/chicken_burger.jpg",
+      "description": {
+        "az": "Yumşaq qril və ya xırtıldayan toyuq filesindən burger kartof fri ilə.",
+        "en": "Tender grilled or crispy chicken breast burger with fries.",
+        "ru": "Бургер с нежной куриной грудкой на гриле или в хрустящей корочке, с картофелем фри."
+      },
+      "chef": false
+    },
+    {
+      "id": 38,
+      "name": {
+        "az": "Hisə verilmiş pendir",
+        "en": "Smoked Cheese",
+        "ru": "Копчёный сыр"
+      },
+      "category": "Appetizer",
+      "price": 7.0,
+      "image": "assets/images/smoked_cheese.jpg",
+      "description": {
+        "az": "Dadlı kiçik hisə verilmiş pendir tikələri.",
+        "en": "Flavorful bite-sized strings of smoked cheese.",
+        "ru": "Небольшие кусочки ароматного копчёного сыра."
+      },
+      "chef": false
+    },
+    {
+      "id": 39,
+      "name": {
+        "az": "Qızardılmış hisə verilmiş pendir",
+        "en": "Fried Smoked Cheese",
+        "ru": "Жареный копчёный сыр"
+      },
+      "category": "Appetizer",
+      "price": 8.0,
+      "image": "assets/images/fried_smoked_cheese.jpg",
+      "description": {
+        "az": "İsti, xırtıldayan və zəngin dadlı qızardılmış hisə verilmiş pendir.",
+        "en": "Warm, crispy, and deeply savory fried smoked cheese.",
+        "ru": "Тёплый, хрустящий и насыщенный по вкусу жареный копчёный сыр."
+      },
+      "chef": false
+    },
+    {
+      "id": 40,
+      "name": {
+        "az": "Qızardılmış düşbərə",
+        "en": "Fried Dushbara",
+        "ru": "Жареная дюшбара"
+      },
+      "category": "Appetizer",
+      "price": 9.0,
+      "image": "assets/images/fried_dushbara.jpg",
+      "description": {
+        "az": "Qəlyanaltı üçün ideal xırtıldayan, yağda qızardılmış kiçik düşbərələr.",
+        "en": "Crispy, deep-fried miniature dumplings perfect for snacking.",
+        "ru": "Хрустящие маленькие пельмени во фритюре, идеально подходят для перекуса."
+      },
+      "chef": true
+    },
+    {
+      "id": 41,
+      "name": {
+        "az": "Antep püstəsi (80 q)",
+        "en": "Antep Pistachio (80g)",
+        "ru": "Антепская фисташка (80 г)"
+      },
+      "category": "Appetizer",
+      "price": 19.0,
+      "image": "assets/images/antep_80g.jpg",
+      "description": {
+        "az": "Premium qovrulmuş və duzlanmış Antep püstələri.",
+        "en": "Premium roasted and salted Antep pistachios.",
+        "ru": "Премиальные жареные и солёные фисташки Антеп."
+      },
+      "chef": false
+    },
+    {
+      "id": 42,
+      "name": {
+        "az": "Çips",
+        "en": "Chips",
+        "ru": "Чипсы"
+      },
+      "category": "Appetizer",
+      "price": 6.0,
+      "image": "assets/images/chips.jpg",
+      "description": {
+        "az": "Klassik xırtıldayan kartof çipsləri.",
+        "en": "Classic crunchy potato chips.",
+        "ru": "Классические хрустящие картофельные чипсы."
+      },
+      "chef": false
+    },
+    {
+      "id": 43,
+      "name": {
+        "az": "Popkorn toyuq və şirin çili",
+        "en": "Chicken Popcorn and Sweet Chili",
+        "ru": "Куриный попкорн со сладким чили"
+      },
+      "category": "Appetizer",
+      "price": 9.0,
+      "image": "assets/images/chicken_popcorn_snack.jpg",
+      "description": {
+        "az": "Şirin çili sousu ilə təqdim olunan xırtıldayan toyuq tikələri.",
+        "en": "Crispy chicken bites paired with sweet chili dipping sauce.",
+        "ru": "Хрустящие кусочки курицы со сладким соусом чили."
+      },
+      "chef": false
+    },
+    {
+      "id": 44,
+      "name": {
+        "az": "Qarışıq çərəzlər",
+        "en": "Mixed Nuts",
+        "ru": "Ассорти орехов"
+      },
+      "category": "Appetizer",
+      "price": 28.0,
+      "image": "assets/images/mixed_nuts.jpg",
+      "description": {
+        "az": "Qovrulmuş və çiy çərəzlərdən premium assorti.",
+        "en": "A premium assortment of roasted and raw nuts.",
+        "ru": "Премиальное ассорти жареных и сырых орехов."
+      },
+      "chef": false
+    },
+    {
+      "id": 45,
+      "name": {
+        "az": "Quru meyvələr",
+        "en": "Dry Fruits",
+        "ru": "Сухофрукты"
+      },
+      "category": "Appetizer",
+      "price": 26.0,
+      "image": "assets/images/dry_fruits.jpg",
+      "description": {
+        "az": "Müxtəlif şirin və təbii quru meyvələr.",
+        "en": "Assorted sweet and natural dried fruits.",
+        "ru": "Ассорти сладких натуральных сухофруктов."
+      },
+      "chef": false
+    },
+    {
+      "id": 46,
+      "name": {
+        "az": "Antep püstəsi (50 q)",
+        "en": "Antep Pistachio Nuts (50g)",
+        "ru": "Антепская фисташка (50 г)"
+      },
+      "category": "Appetizer",
+      "price": 40.0,
+      "image": "assets/images/antep_50g.jpg",
+      "description": {
+        "az": "Seçilmiş butik keyfiyyətli Antep püstələri.",
+        "en": "Select boutique-grade Antep pistachios.",
+        "ru": "Отборные фисташки Антеп бутик-класса."
+      },
+      "chef": true
+    },
+    {
+      "id": 47,
+      "name": {
+        "az": "Qovrulmuş çərəzlər (100 q)",
+        "en": "Roasted Nuts (100g)",
+        "ru": "Жареные орехи (100 г)"
+      },
+      "category": "Appetizer",
+      "price": 16.0,
+      "image": "assets/images/roasted_nuts_100g.jpg",
+      "description": {
+        "az": "Mükəmməl duzlanmış və təzə qovrulmuş qarışıq çərəzlər.",
+        "en": "Perfectly salted and freshly roasted mixed nuts.",
+        "ru": "Идеально посоленные свежие жареные орехи."
+      },
+      "chef": false
+    },
+    {
+      "id": 48,
+      "name": {
+        "az": "San Sebastian çizkeyki",
+        "en": "San Sebastian Cheesecake",
+        "ru": "Чизкейк Сан-Себастьян"
+      },
+      "category": "Dessert",
+      "price": 15.0,
+      "image": "assets/images/san_sebastian.jpg",
+      "description": {
+        "az": "Xırtıldayan üst qatı olan, kremli və altlıqsız bişmiş çizkeyk.",
+        "en": "Crustless creamy baked cheesecake with a beautifully scorched top.",
+        "ru": "Нежный чизкейк без основы с красиво подрумяненной верхушкой."
+      },
+      "chef": true
+    },
+    {
+      "id": 49,
+      "name": {
+        "az": "Tiramisu",
+        "en": "Tiramisu",
+        "ru": "Тирамису"
+      },
+      "category": "Dessert",
+      "price": 15.0,
+      "image": "assets/images/tiramisu.jpg",
+      "description": {
+        "az": "Espresso ilə isladılmış biskvit və maskarpone ilə hazırlanan klassik italyan deserti.",
+        "en": "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone.",
+        "ru": "Классический итальянский десерт с пропитанным эспрессо печеньем и маскарпоне."
+      },
+      "chef": false
+    },
+    {
+      "id": 50,
+      "name": {
+        "az": "Ballı tort",
+        "en": "Honey Cake",
+        "ru": "Медовый торт"
+      },
+      "category": "Dessert",
+      "price": 15.0,
+      "image": "assets/images/honey_cake.jpg",
+      "description": {
+        "az": "Təbii balın zəngin dadı ilə hazırlanmış zərif çoxqatlı tort.",
+        "en": "Delicate multi-layered cake rich with organic honey flavor.",
+        "ru": "Нежный многослойный торт с насыщенным вкусом натурального мёда."
+      },
+      "chef": false
+    },
+    {
+      "id": 51,
+      "name": {
+        "az": "Balqabaq deserti",
+        "en": "Pumpkin Dessert",
+        "ru": "Десерт из тыквы"
+      },
+      "category": "Dessert",
+      "price": 15.0,
+      "image": "assets/images/pumpkin_dessert.jpg",
+      "description": {
+        "az": "Yavaş bişirilmiş ənənəvi şirin balqabaq deserti.",
+        "en": "Sweet, slow-cooked traditional pumpkin treats.",
+        "ru": "Традиционный сладкий десерт из медленно приготовленной тыквы."
+      },
+      "chef": false
+    },
+    {
+      "id": 52,
+      "name": {
+        "az": "Künefə",
+        "en": "Kunafa",
+        "ru": "Кунафа"
+      },
+      "category": "Dessert",
+      "price": 15.0,
+      "image": "assets/images/kunafa.jpg",
+      "description": {
+        "az": "Əridilmiş pendir qatları olan və şirin şərbətlə isladılmış xırtıldayan xəmir.",
+        "en": "Crisp pastry layered with melted cheese and soaked in sweet syrup.",
+        "ru": "Хрустящее тесто с слоями расплавленного сыра, пропитанное сладким сиропом."
+      },
+      "chef": true
+    },
+    {
+      "id": 53,
+      "name": {
+        "az": "Dondurma",
+        "en": "Ice Cream",
+        "ru": "Мороженое"
+      },
+      "category": "Dessert",
+      "price": 10.0,
+      "image": "assets/images/ice_cream.jpg",
+      "description": {
+        "az": "Təravətləndirici yüksək keyfiyyətli dondurma seçimləri.",
+        "en": "Selection of refreshing, high-quality ice cream scoops.",
+        "ru": "Выбор освежающего мороженого высокого качества."
+      },
+      "chef": false
+    },
+    {
+      "id": 54,
+      "name": {
+        "az": "Bakı paxlavası (1 ədəd)",
+        "en": "Baku Baklava (1 piece)",
+        "ru": "Бакинская пахлава (1 шт.)"
+      },
+      "category": "Dessert",
+      "price": 4.0,
+      "image": "assets/images/baklava.jpg",
+      "description": {
+        "az": "Çərəz və balla zənginləşdirilmiş orijinal çoxqatlı Azərbaycan şirniyyatı.",
+        "en": "Authentic multi-layered Azerbaijani pastry packed with nuts and honey.",
+        "ru": "Настоящая многослойная азербайджанская выпечка с орехами и мёдом."
+      },
+      "chef": true
+    },
+    {
+      "id": 55,
+      "name": {
+        "az": "Mürəbbə",
+        "en": "Jam (Murabba)",
+        "ru": "Варенье (мурабба)"
+      },
+      "category": "Dessert",
+      "price": 15.0,
+      "image": "assets/images/jam.jpg",
+      "description": {
+        "az": "Çay üçün ideal ənənəvi ev üsulu meyvə mürəbbəsi.",
+        "en": "Traditional house-made fruit preserves, perfect for tea.",
+        "ru": "Традиционное домашнее фруктовое варенье, идеально к чаю."
+      },
+      "chef": false
+    },
+    {
+      "id": 56,
+      "name": {
+        "az": "Qarışıq meyvə assortisi (2 nəfərlik)",
+        "en": "Mixed Fruit Platter (2 person)",
+        "ru": "Фруктовое ассорти (на 2 персоны)"
+      },
+      "category": "Dessert",
+      "price": 25.0,
+      "image": "assets/images/fruit_platter.jpg",
+      "description": {
+        "az": "Təzə mövsümi doğranmış meyvələrdən rəngarəng seçim.",
+        "en": "A vibrant selection of fresh seasonal sliced fruits.",
+        "ru": "Яркое ассорти свежих сезонных нарезанных фруктов."
+      },
+      "chef": false
+    },
+    {
+      "id": 57,
+      "name": {
+        "az": "Aperol (Qədəh)",
+        "en": "Aperol (Glass)",
+        "ru": "Aperol (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Aperitif",
+        "en": "Aperitif",
+        "ru": "Аперитив"
+      },
+      "chef": false
+    },
+    {
+      "id": 58,
+      "name": {
+        "az": "Martini Bianco (Qədəh)",
+        "en": "Martini Bianco (Glass)",
+        "ru": "Martini Bianco (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vermut",
+        "en": "Vermouth",
+        "ru": "Вермут"
+      },
+      "chef": false
+    },
+    {
+      "id": 59,
+      "name": {
+        "az": "Martini Rosso (Qədəh)",
+        "en": "Martini Rosso (Glass)",
+        "ru": "Martini Rosso (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vermut",
+        "en": "Vermouth",
+        "ru": "Вермут"
+      },
+      "chef": false
+    },
+    {
+      "id": 60,
+      "name": {
+        "az": "Martini Extra Dry (Qədəh)",
+        "en": "Martini Extra Dry (Glass)",
+        "ru": "Martini Extra Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vermut",
+        "en": "Vermouth",
+        "ru": "Вермут"
+      },
+      "chef": false
+    },
+    {
+      "id": 61,
+      "name": {
+        "az": "Campari (Qədəh)",
+        "en": "Campari (Glass)",
+        "ru": "Campari (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Acı likör",
+        "en": "Bitters",
+        "ru": "Биттер"
+      },
+      "chef": false
+    },
+    {
+      "id": 62,
+      "name": {
+        "az": "Moët & Chandon (Şüşə)",
+        "en": "Moet Chandon (Bottle)",
+        "ru": "Moet Chandon (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 290.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium şampan",
+        "en": "Premium Champagne",
+        "ru": "Премиальное шампанское"
+      },
+      "chef": true
+    },
+    {
+      "id": 63,
+      "name": {
+        "az": "Astoria Prosecco Treviso Butterfly (Şüşə)",
+        "en": "Astoria Prosecco Treviso Butterfly (Bottle)",
+        "ru": "Astoria Prosecco Treviso Butterfly (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 83.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Köpüklü şərab",
+        "en": "Sparkling Wine",
+        "ru": "Игристое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 64,
+      "name": {
+        "az": "Hillside Rose Blush (Qədəh)",
+        "en": "Hillside Rose Blush (Glass)",
+        "ru": "Hillside Rose Blush (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 65,
+      "name": {
+        "az": "Hillside Rose Blush (Şüşə)",
+        "en": "Hillside Rose Blush (Bottle)",
+        "ru": "Hillside Rose Blush (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 66,
+      "name": {
+        "az": "Chabiant Rose Dry (Qədəh)",
+        "en": "Chabiant Rose Dry (Glass)",
+        "ru": "Chabiant Rose Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 67,
+      "name": {
+        "az": "Chabiant Rose Dry (Şüşə)",
+        "en": "Chabiant Rose Dry (Bottle)",
+        "ru": "Chabiant Rose Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 68,
+      "name": {
+        "az": "Chabiant Madrasa Rose Dry (Şüşə)",
+        "en": "Chabiant Madrasa Rose Dry (Bottle)",
+        "ru": "Chabiant Madrasa Rose Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 58.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium yerli qızılgül şərabı",
+        "en": "Premium local Rose",
+        "ru": "Премиальное местное розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 69,
+      "name": {
+        "az": "Hillside Reserve Red Dry (Qədəh)",
+        "en": "Hillside Reserve Red Dry (Glass)",
+        "ru": "Hillside Reserve Red Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 70,
+      "name": {
+        "az": "Hillside Reserve Red Dry (Şüşə)",
+        "en": "Hillside Reserve Red Dry (Bottle)",
+        "ru": "Hillside Reserve Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 71,
+      "name": {
+        "az": "Hillside Prestige Red Semi Sweet (Qədəh)",
+        "en": "Hillside Prestige Red Semi Sweet (Glass)",
+        "ru": "Hillside Prestige Red Semi Sweet (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 72,
+      "name": {
+        "az": "Hillside Prestige Red Semi Sweet (Şüşə)",
+        "en": "Hillside Prestige Red Semi Sweet (Bottle)",
+        "ru": "Hillside Prestige Red Semi Sweet (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 73,
+      "name": {
+        "az": "Hillside Pomegranate Red Semi Sweet (Şüşə)",
+        "en": "Hillside Pomegranate Red Semi Sweet (Bottle)",
+        "ru": "Hillside Pomegranate Red Semi Sweet (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 68.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Nar şərabı",
+        "en": "Pomegranate Wine",
+        "ru": "Гранатовое вино"
+      },
+      "chef": true
+    },
+    {
+      "id": 74,
+      "name": {
+        "az": "Hillside Cuvee Red Dry (Şüşə)",
+        "en": "Hillside Cuvee Red Dry (Bottle)",
+        "ru": "Hillside Cuvee Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 75,
+      "name": {
+        "az": "Hillside Khindogni Red Dry (Şüşə)",
+        "en": "Hillside Khindogni Red Dry (Bottle)",
+        "ru": "Hillside Khindogni Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Yerli üzüm sortundan qırmızı şərab",
+        "en": "Local Grape Variety Red Wine",
+        "ru": "Красное вино из местного сорта винограда"
+      },
+      "chef": false
+    },
+    {
+      "id": 76,
+      "name": {
+        "az": "Hillside Image Red Semi Dry (Şüşə)",
+        "en": "Hillside Image Red Semi Dry (Bottle)",
+        "ru": "Hillside Image Red Semi Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 77,
+      "name": {
+        "az": "Savalan Merlot (Şüşə)",
+        "en": "Savalan Merlot (Bottle)",
+        "ru": "Savalan Merlot (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 68.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium qırmızı şərab",
+        "en": "Premium Red Wine",
+        "ru": "Премиальное красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 78,
+      "name": {
+        "az": "Savalan Cabernet Merlot (Şüşə)",
+        "en": "Savalan Cabernet Merlot (Bottle)",
+        "ru": "Savalan Cabernet Merlot (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 68.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab qarışığı",
+        "en": "Red Wine Blend",
+        "ru": "Купаж красных вин"
+      },
+      "chef": false
+    },
+    {
+      "id": 79,
+      "name": {
+        "az": "Savalan Aleatico (Şüşə)",
+        "en": "Savalan Aleatico (Bottle)",
+        "ru": "Savalan Aleatico (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 68.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 80,
+      "name": {
+        "az": "Chabiant Red Semi Dry (Qədəh)",
+        "en": "Chabiant Red Semi Dry (Glass)",
+        "ru": "Chabiant Red Semi Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 81,
+      "name": {
+        "az": "Chabiant Red Semi Dry (Şüşə)",
+        "en": "Chabiant Red Semi Dry (Bottle)",
+        "ru": "Chabiant Red Semi Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 82,
+      "name": {
+        "az": "Chabiant Red Dry (Qədəh)",
+        "en": "Chabiant Red Dry (Glass)",
+        "ru": "Chabiant Red Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 83,
+      "name": {
+        "az": "Chabiant Red Dry (Şüşə)",
+        "en": "Chabiant Red Dry (Bottle)",
+        "ru": "Chabiant Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 84,
+      "name": {
+        "az": "Chabiant Red Semi Sweet (Qədəh)",
+        "en": "Chabiant Red Semi Sweet (Glass)",
+        "ru": "Chabiant Red Semi Sweet (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 85,
+      "name": {
+        "az": "Chabiant Red Semi Sweet (Şüşə)",
+        "en": "Chabiant Red Semi Sweet (Bottle)",
+        "ru": "Chabiant Red Semi Sweet (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 86,
+      "name": {
+        "az": "Chabiant Madrasa Red Dry (Şüşə)",
+        "en": "Chabiant Madrasa Red Dry (Bottle)",
+        "ru": "Chabiant Madrasa Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 58.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab",
+        "en": "Red Wine",
+        "ru": "Красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 87,
+      "name": {
+        "az": "Chabiant Saperavi-Cabernet Sauvignon (Şüşə)",
+        "en": "Chabiant Saperavi-Cabernet Sauvignon (Bottle)",
+        "ru": "Chabiant Saperavi-Cabernet Sauvignon (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 58.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qırmızı şərab qarışığı",
+        "en": "Red Wine Blend",
+        "ru": "Купаж красных вин"
+      },
+      "chef": false
+    },
+    {
+      "id": 88,
+      "name": {
+        "az": "Meyseri İnnabı Red Dry (Şüşə)",
+        "en": "Meyseri İnnabı Red Dry (Bottle)",
+        "ru": "Meyseri İnnabı Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 78.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Orqanik yerli qırmızı şərab",
+        "en": "Organic Local Red Wine",
+        "ru": "Органическое местное красное вино"
+      },
+      "chef": true
+    },
+    {
+      "id": 89,
+      "name": {
+        "az": "Meyseri Marcan Red Dry (Şüşə)",
+        "en": "Meyseri Marcan Red Dry (Bottle)",
+        "ru": "Meyseri Marcan Red Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 78.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Orqanik yerli qırmızı şərab",
+        "en": "Organic Local Red Wine",
+        "ru": "Органическое местное красное вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 90,
+      "name": {
+        "az": "Meyseri Mexmeri (Şüşə)",
+        "en": "Meyseri Mexmeri (Bottle)",
+        "ru": "Meyseri Mexmeri (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 85.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Orqanik premium şərab",
+        "en": "Organic Premium Wine",
+        "ru": "Органическое премиальное вино"
+      },
+      "chef": true
+    },
+    {
+      "id": 91,
+      "name": {
+        "az": "Hillside Pinot Grigio White Dry (Qədəh)",
+        "en": "Hillside Pinot Grigio White Dry (Glass)",
+        "ru": "Hillside Pinot Grigio White Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 92,
+      "name": {
+        "az": "Hillside Pinot Grigio White Dry (Şüşə)",
+        "en": "Hillside Pinot Grigio White Dry (Bottle)",
+        "ru": "Hillside Pinot Grigio White Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 93,
+      "name": {
+        "az": "Hillside Chardonnay White Dry (Şüşə)",
+        "en": "Hillside Chardonnay White Dry (Bottle)",
+        "ru": "Hillside Chardonnay White Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 94,
+      "name": {
+        "az": "Hillside Bayan Shira White Semi Dry (Şüşə)",
+        "en": "Hillside Bayan Shira White Semi Dry (Bottle)",
+        "ru": "Hillside Bayan Shira White Semi Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 95,
+      "name": {
+        "az": "Chabiant White Semi Sweet (Qədəh)",
+        "en": "Chabiant White Semi Sweet (Glass)",
+        "ru": "Chabiant White Semi Sweet (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 96,
+      "name": {
+        "az": "Chabiant White Semi Sweet (Şüşə)",
+        "en": "Chabiant White Semi Sweet (Bottle)",
+        "ru": "Chabiant White Semi Sweet (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 97,
+      "name": {
+        "az": "Chabiant White Semi Dry (Qədəh)",
+        "en": "Chabiant White Semi Dry (Glass)",
+        "ru": "Chabiant White Semi Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 98,
+      "name": {
+        "az": "Chabiant White Semi Dry (Şüşə)",
+        "en": "Chabiant White Semi Dry (Bottle)",
+        "ru": "Chabiant White Semi Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 99,
+      "name": {
+        "az": "Chabiant White Dry (Qədəh)",
+        "en": "Chabiant White Dry (Glass)",
+        "ru": "Chabiant White Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 100,
+      "name": {
+        "az": "Chabiant White Dry (Şüşə)",
+        "en": "Chabiant White Dry (Bottle)",
+        "ru": "Chabiant White Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 101,
+      "name": {
+        "az": "Chabiant Bayan Shira White Dry (Şüşə)",
+        "en": "Chabiant Bayan Shira White Dry (Bottle)",
+        "ru": "Chabiant Bayan Shira White Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 58.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ şərab",
+        "en": "White Wine",
+        "ru": "Белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 102,
+      "name": {
+        "az": "Savalan Moscato (Şüşə)",
+        "en": "Savalan Moscato (Bottle)",
+        "ru": "Savalan Moscato (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 68.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Aromatik ağ şərab",
+        "en": "Aromatic White Wine",
+        "ru": "Ароматное белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 103,
+      "name": {
+        "az": "Savalan Elisa (Şüşə)",
+        "en": "Savalan Elisa (Bottle)",
+        "ru": "Savalan Elisa (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 98.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium ağ şərab",
+        "en": "Premium White Wine",
+        "ru": "Премиальное белое вино"
+      },
+      "chef": true
+    },
+    {
+      "id": 104,
+      "name": {
+        "az": "Meyseri Sadaf White Dry (Şüşə)",
+        "en": "Meyseri Sadaf White Dry (Bottle)",
+        "ru": "Meyseri Sadaf White Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 78.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Orqanik ağ şərab",
+        "en": "Organic White Wine",
+        "ru": "Органическое белое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 105,
+      "name": {
+        "az": "Heineken",
+        "en": "Heineken",
+        "ru": "Heineken"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "İdxal pivəsi",
+        "en": "Imported Beer",
+        "ru": "Импортное пиво"
+      },
+      "chef": false
+    },
+    {
+      "id": 106,
+      "name": {
+        "az": "Corona",
+        "en": "Corona",
+        "ru": "Corona"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Laymlı idxal pivəsi",
+        "en": "Imported Beer with Lime",
+        "ru": "Импортное пиво с лаймом"
+      },
+      "chef": false
+    },
+    {
+      "id": 107,
+      "name": {
+        "az": "Efes",
+        "en": "Efes",
+        "ru": "Efes"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Lager pivəsi",
+        "en": "Lager Beer",
+        "ru": "Лагер"
+      },
+      "chef": false
+    },
+    {
+      "id": 108,
+      "name": {
+        "az": "Efes Zero",
+        "en": "Efes Zero",
+        "ru": "Efes Zero"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Alkoqolsuz pivə",
+        "en": "Non-Alcoholic Beer",
+        "ru": "Безалкогольное пиво"
+      },
+      "chef": false
+    },
+    {
+      "id": 109,
+      "name": {
+        "az": "Xırdalan (Çəllək)",
+        "en": "Xirdalan (Draft)",
+        "ru": "Xirdalan (Draft)"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Təzə çəllək pivəsi",
+        "en": "Fresh Draft Beer",
+        "ru": "Свежее разливное пиво"
+      },
+      "chef": false
+    },
+    {
+      "id": 110,
+      "name": {
+        "az": "Xırdalan Zero",
+        "en": "Xirdalan Zero",
+        "ru": "Xirdalan Zero"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Alkoqolsuz yerli pivə",
+        "en": "Non-Alcoholic Local Beer",
+        "ru": "Безалкогольное местное пиво"
+      },
+      "chef": false
+    },
+    {
+      "id": 111,
+      "name": {
+        "az": "Monkey Shoulder",
+        "en": "Monkey Shoulder",
+        "ru": "Monkey Shoulder"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Blended malt skotç viskisi",
+        "en": "Blended Malt Scotch Whisky",
+        "ru": "Купажированный солодовый шотландский виски"
+      },
+      "chef": false
+    },
+    {
+      "id": 112,
+      "name": {
+        "az": "Glenmorangie 10 yaş",
+        "en": "Glenmorangie 10 Y.O",
+        "ru": "Glenmorangie 10 Y.O"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Single malt skotç",
+        "en": "Single Malt Scotch",
+        "ru": "Односолодовый шотландский виски"
+      },
+      "chef": false
+    },
+    {
+      "id": 113,
+      "name": {
+        "az": "Jack Daniel's No.7",
+        "en": "Jack Daniels No7",
+        "ru": "Jack Daniels No7"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tennessi viskisi",
+        "en": "Tennessee Whiskey",
+        "ru": "Теннессийский виски"
+      },
+      "chef": false
+    },
+    {
+      "id": 114,
+      "name": {
+        "az": "Jameson",
+        "en": "Jameson",
+        "ru": "Jameson"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "İrlandiya viskisi",
+        "en": "Irish Whiskey",
+        "ru": "Ирландский виски"
+      },
+      "chef": false
+    },
+    {
+      "id": 115,
+      "name": {
+        "az": "Chivas Regal 12 yaş",
+        "en": "Chivas Regal 12 Y.O",
+        "ru": "Chivas Regal 12 Y.O"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium qarışıq skotç",
+        "en": "Premium Blended Scotch",
+        "ru": "Премиальный купажированный скотч"
+      },
+      "chef": false
+    },
+    {
+      "id": 116,
+      "name": {
+        "az": "Chivas Regal 18 yaş",
+        "en": "Chivas Regal 18 Y.O",
+        "ru": "Chivas Regal 18 Y.O"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Super premium qarışıq skotç",
+        "en": "Super Premium Blended Scotch",
+        "ru": "Суперпремиальный купажированный скотч"
+      },
+      "chef": true
+    },
+    {
+      "id": 117,
+      "name": {
+        "az": "Glenfiddich 12 yaş",
+        "en": "Glenfiddich 12 Y.O",
+        "ru": "Glenfiddich 12 Y.O"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Single malt viski",
+        "en": "Single Malt Whisky",
+        "ru": "Односолодовый виски"
+      },
+      "chef": false
+    },
+    {
+      "id": 118,
+      "name": {
+        "az": "Glenfiddich 15 yaş",
+        "en": "Glenfiddich 15 Y.O",
+        "ru": "Glenfiddich 15 Y.O"
+      },
+      "category": "Drinks",
+      "price": 25.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Single malt viski",
+        "en": "Single Malt Whisky",
+        "ru": "Односолодовый виски"
+      },
+      "chef": true
+    },
+    {
+      "id": 119,
+      "name": {
+        "az": "Macallan 12",
+        "en": "Macallan 12",
+        "ru": "Macallan 12"
+      },
+      "category": "Drinks",
+      "price": 38.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Əla single malt viski",
+        "en": "Fine Single Malt Whisky",
+        "ru": "Отборный односолодовый виски"
+      },
+      "chef": true
+    },
+    {
+      "id": 120,
+      "name": {
+        "az": "Hennessy VS",
+        "en": "Hennessy VS",
+        "ru": "Hennessy VS"
+      },
+      "category": "Drinks",
+      "price": 18.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Konyak",
+        "en": "Cognac",
+        "ru": "Коньяк"
+      },
+      "chef": false
+    },
+    {
+      "id": 121,
+      "name": {
+        "az": "Torres 10 yaş",
+        "en": "Torres 10 Y.O",
+        "ru": "Torres 10 Y.O"
+      },
+      "category": "Drinks",
+      "price": 25.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "İspan brendisi",
+        "en": "Spanish Brandy",
+        "ru": "Испанский бренди"
+      },
+      "chef": false
+    },
+    {
+      "id": 122,
+      "name": {
+        "az": "Rémy Martin VSOP",
+        "en": "Remy Martin VSOP",
+        "ru": "Remy Martin VSOP"
+      },
+      "category": "Drinks",
+      "price": 35.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Əla şampan konyakı",
+        "en": "Fine Champagne Cognac",
+        "ru": "Изысканный коньяк Fine Champagne"
+      },
+      "chef": true
+    },
+    {
+      "id": 123,
+      "name": {
+        "az": "Captain Morgan Spiced",
+        "en": "Captain Morgan Spiced",
+        "ru": "Captain Morgan Spiced"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ədviyyatlı rom",
+        "en": "Spiced Rum",
+        "ru": "Пряный ром"
+      },
+      "chef": false
+    },
+    {
+      "id": 124,
+      "name": {
+        "az": "Captain Morgan Black",
+        "en": "Captain Morgan Black",
+        "ru": "Captain Morgan Black"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tünd rom",
+        "en": "Dark Rum",
+        "ru": "Тёмный ром"
+      },
+      "chef": false
+    },
+    {
+      "id": 125,
+      "name": {
+        "az": "Bacardi Carta Blanca",
+        "en": "Bacardi Carta Blanca",
+        "ru": "Bacardi Carta Blanca"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ağ rom",
+        "en": "White Rum",
+        "ru": "Белый ром"
+      },
+      "chef": false
+    },
+    {
+      "id": 126,
+      "name": {
+        "az": "Sierra Tekila (Qədəh)",
+        "en": "Sierra Tequila (Glass)",
+        "ru": "Sierra Tequila (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tekila şotu",
+        "en": "Tequila Shot",
+        "ru": "Шот текилы"
+      },
+      "chef": false
+    },
+    {
+      "id": 127,
+      "name": {
+        "az": "Sierra Tekila (Şüşə)",
+        "en": "Sierra Tequila (Bottle)",
+        "ru": "Sierra Tequila (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tekila şüşəsi",
+        "en": "Tequila Bottle",
+        "ru": "Бутылка текилы"
+      },
+      "chef": false
+    },
+    {
+      "id": 128,
+      "name": {
+        "az": "Olmeca Blanco (Qədəh)",
+        "en": "Olmeca Blanco (Glass)",
+        "ru": "Olmeca Blanco (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 11.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tekila şotu",
+        "en": "Tequila Shot",
+        "ru": "Шот текилы"
+      },
+      "chef": false
+    },
+    {
+      "id": 129,
+      "name": {
+        "az": "Olmeca Blanco (Şüşə)",
+        "en": "Olmeca Blanco (Bottle)",
+        "ru": "Olmeca Blanco (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tekila şüşəsi",
+        "en": "Tequila Bottle",
+        "ru": "Бутылка текилы"
+      },
+      "chef": false
+    },
+    {
+      "id": 130,
+      "name": {
+        "az": "Patrón Silver (Qədəh)",
+        "en": "Patron Silver (Glass)",
+        "ru": "Patron Silver (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 18.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium tekila şotu",
+        "en": "Premium Tequila Shot",
+        "ru": "Премиальный шот текилы"
+      },
+      "chef": false
+    },
+    {
+      "id": 131,
+      "name": {
+        "az": "Patrón Silver (Şüşə)",
+        "en": "Patron Silver (Bottle)",
+        "ru": "Patron Silver (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 58.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium tekila şüşəsi",
+        "en": "Premium Tequila Bottle",
+        "ru": "Бутылка премиальной текилы"
+      },
+      "chef": false
+    },
+    {
+      "id": 132,
+      "name": {
+        "az": "Don Julio Blanco 0.7L (Şüşə)",
+        "en": "Don Julio Blanco 0.7L (Bottle)",
+        "ru": "Don Julio Blanco 0.7L (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 295.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Lüks tekila",
+        "en": "Luxury Tequila",
+        "ru": "Элитная текила"
+      },
+      "chef": true
+    },
+    {
+      "id": 133,
+      "name": {
+        "az": "Grey Goose (Şüşə)",
+        "en": "Grey Goose (Bottle)",
+        "ru": "Grey Goose (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 290.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium fransız vodkası",
+        "en": "Premium French Vodka",
+        "ru": "Премиальная французская водка"
+      },
+      "chef": true
+    },
+    {
+      "id": 134,
+      "name": {
+        "az": "Russian Standard",
+        "en": "Russian Standard",
+        "ru": "Russian Standard"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vodka",
+        "en": "Vodka",
+        "ru": "Водка"
+      },
+      "chef": false
+    },
+    {
+      "id": 135,
+      "name": {
+        "az": "Nemiroff",
+        "en": "Nemiroff",
+        "ru": "Nemiroff"
+      },
+      "category": "Drinks",
+      "price": 8.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vodka",
+        "en": "Vodka",
+        "ru": "Водка"
+      },
+      "chef": false
+    },
+    {
+      "id": 136,
+      "name": {
+        "az": "Absolut",
+        "en": "Absolut",
+        "ru": "Absolut"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vodka",
+        "en": "Vodka",
+        "ru": "Водка"
+      },
+      "chef": false
+    },
+    {
+      "id": 137,
+      "name": {
+        "az": "Finlandia",
+        "en": "Finlandia",
+        "ru": "Finlandia"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Vodka",
+        "en": "Vodka",
+        "ru": "Водка"
+      },
+      "chef": false
+    },
+    {
+      "id": 138,
+      "name": {
+        "az": "Gordon's Cin",
+        "en": "Gordons Gin",
+        "ru": "Gordons Gin"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Quru cin",
+        "en": "Dry Gin",
+        "ru": "Сухой джин"
+      },
+      "chef": false
+    },
+    {
+      "id": 139,
+      "name": {
+        "az": "Bombay Sapphire",
+        "en": "Bombay Sapphire",
+        "ru": "Bombay Sapphire"
+      },
+      "category": "Drinks",
+      "price": 10.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium cin",
+        "en": "Premium Gin",
+        "ru": "Премиальный джин"
+      },
+      "chef": false
+    },
+    {
+      "id": 140,
+      "name": {
+        "az": "Hendrick's",
+        "en": "Hendricks",
+        "ru": "Hendricks"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Distillə edilmiş cin",
+        "en": "Distilled Gin",
+        "ru": "Дистиллированный джин"
+      },
+      "chef": true
+    },
+    {
+      "id": 141,
+      "name": {
+        "az": "Cointreau",
+        "en": "Cointreau",
+        "ru": "Cointreau"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Portağal likörü",
+        "en": "Orange Liqueur",
+        "ru": "Апельсиновый ликёр"
+      },
+      "chef": false
+    },
+    {
+      "id": 142,
+      "name": {
+        "az": "Baileys",
+        "en": "Baileys",
+        "ru": "Baileys"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "İrlandiya krem likörü",
+        "en": "Irish Cream Liqueur",
+        "ru": "Ирландский сливочный ликёр"
+      },
+      "chef": false
+    },
+    {
+      "id": 143,
+      "name": {
+        "az": "Malibu Rom",
+        "en": "Malibu Rum",
+        "ru": "Malibu Rum"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Hindqozu likörü",
+        "en": "Coconut Liqueur",
+        "ru": "Кокосовый ликёр"
+      },
+      "chef": false
+    },
+    {
+      "id": 144,
+      "name": {
+        "az": "Jägermeister",
+        "en": "Jagermeister",
+        "ru": "Jagermeister"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Bitki likörü",
+        "en": "Herbal Liqueur",
+        "ru": "Травяной ликёр"
+      },
+      "chef": false
+    },
+    {
+      "id": 145,
+      "name": {
+        "az": "Absenta",
+        "en": "Absenta",
+        "ru": "Absenta"
+      },
+      "category": "Drinks",
+      "price": 10.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Absint",
+        "en": "Absinthe",
+        "ru": "Абсент"
+      },
+      "chef": false
+    },
+    {
+      "id": 146,
+      "name": {
+        "az": "Sambuca",
+        "en": "Sambuca",
+        "ru": "Sambuca"
+      },
+      "category": "Drinks",
+      "price": 10.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Anis ətirli likör",
+        "en": "Anise-flavored Liqueur",
+        "ru": "Ликёр со вкусом аниса"
+      },
+      "chef": false
+    },
+    {
+      "id": 147,
+      "name": {
+        "az": "Caz şot dəsti (6 ədəd)",
+        "en": "Jazz Shot Set (6 pcs)",
+        "ru": "Jazz Shot Set (6 pcs)"
+      },
+      "category": "Drinks",
+      "price": 30.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Müəssisənin imza şotları",
+        "en": "Signature House Shots",
+        "ru": "Фирменные шоты заведения"
+      },
+      "chef": true
+    },
+    {
+      "id": 148,
+      "name": {
+        "az": "Xüsusi kokteyl şot dəsti (6 ədəd)",
+        "en": "Special Cocktails Shot Set (6 pcs)",
+        "ru": "Special Cocktails Shot Set (6 pcs)"
+      },
+      "category": "Drinks",
+      "price": 35.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Xüsusi seçilmiş şotlar",
+        "en": "Curated Special Shots",
+        "ru": "Специальная подборка шотов"
+      },
+      "chef": true
+    },
+    {
+      "id": 149,
+      "name": {
+        "az": "Daiquiri",
+        "en": "Daiquiri",
+        "ru": "Daiquiri"
+      },
+      "category": "Drinks",
+      "price": 16.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Klassik rom kokteyli",
+        "en": "Classic Rum Cocktail",
+        "ru": "Классический ромовый коктейль"
+      },
+      "chef": false
+    },
+    {
+      "id": 150,
+      "name": {
+        "az": "Mai Tai",
+        "en": "Mai Tai",
+        "ru": "Mai Tai"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tropik kokteyl",
+        "en": "Tropical Cocktail",
+        "ru": "Тропический коктейль"
+      },
+      "chef": false
+    },
+    {
+      "id": 151,
+      "name": {
+        "az": "Negroni",
+        "en": "Negroni",
+        "ru": "Negroni"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Cin, vermut və Campari",
+        "en": "Gin, Vermouth and Campari",
+        "ru": "Джин, вермут и Campari"
+      },
+      "chef": false
+    },
+    {
+      "id": 152,
+      "name": {
+        "az": "Long Island Iced Tea",
+        "en": "Long Island Ice Tea",
+        "ru": "Long Island Ice Tea"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Güclü qarışıq kokteyl",
+        "en": "Strong Mixed Cocktail",
+        "ru": "Крепкий смешанный коктейль"
+      },
+      "chef": false
+    },
+    {
+      "id": 153,
+      "name": {
+        "az": "Viski Sour",
+        "en": "Whiskey Sour",
+        "ru": "Whiskey Sour"
+      },
+      "category": "Drinks",
+      "price": 18.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Limon və şərbət ilə viski",
+        "en": "Whiskey with lemon and syrup",
+        "ru": "Виски с лимоном и сиропом"
+      },
+      "chef": false
+    },
+    {
+      "id": 154,
+      "name": {
+        "az": "Aperol Spritz",
+        "en": "Aperol Spritz",
+        "ru": "Aperol Spritz"
+      },
+      "category": "Drinks",
+      "price": 16.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Təravətli italyan spritsi",
+        "en": "Refreshing Italian Spritz",
+        "ru": "Освежающий итальянский спритц"
+      },
+      "chef": false
+    },
+    {
+      "id": 155,
+      "name": {
+        "az": "Bellini",
+        "en": "Bellini",
+        "ru": "Bellini"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Prosecco və şaftalı püresi",
+        "en": "Prosecco and peach purée",
+        "ru": "Просекко и персиковое пюре"
+      },
+      "chef": false
+    },
+    {
+      "id": 156,
+      "name": {
+        "az": "Bloody Mary",
+        "en": "Bloody Mary",
+        "ru": "Bloody Mary"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Duzlu dadlı vodka və pomidor kokteyli",
+        "en": "Savory Vodka and Tomato Cocktail",
+        "ru": "Пикантный коктейль из водки и томата"
+      },
+      "chef": false
+    },
+    {
+      "id": 157,
+      "name": {
+        "az": "Cuba Libre",
+        "en": "Cuba Libre",
+        "ru": "Cuba Libre"
+      },
+      "category": "Drinks",
+      "price": 16.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Rom, kola və laym",
+        "en": "Rum, Cola, and Lime",
+        "ru": "Ром, кола и лайм"
+      },
+      "chef": false
+    },
+    {
+      "id": 158,
+      "name": {
+        "az": "Marqarita",
+        "en": "Margarita",
+        "ru": "Margarita"
+      },
+      "category": "Drinks",
+      "price": 18.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tekila, Cointreau və laym şirəsi",
+        "en": "Tequila, Cointreau and Lime Juice",
+        "ru": "Текила, Cointreau и сок лайма"
+      },
+      "chef": false
+    },
+    {
+      "id": 159,
+      "name": {
+        "az": "Mojito",
+        "en": "Mojito",
+        "ru": "Mojito"
+      },
+      "category": "Drinks",
+      "price": 18.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Rom, nanə, laym və soda",
+        "en": "Rum, Mint, Lime and Soda",
+        "ru": "Ром, мята, лайм и содовая"
+      },
+      "chef": false
+    },
+    {
+      "id": 160,
+      "name": {
+        "az": "Alkoqolsuz Mojito",
+        "en": "Mojito Non-Alcoholic",
+        "ru": "Mojito Non-Alcoholic"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Təravətli nanə və laym mokteyli",
+        "en": "Refreshing Mint and Lime Mocktail",
+        "ru": "Освежающий безалкогольный коктейль с мятой и лаймом"
+      },
+      "chef": false
+    },
+    {
+      "id": 161,
+      "name": {
+        "az": "Cin Tonik",
+        "en": "Gin Tonic",
+        "ru": "Gin Tonic"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Klassik cin və tonik suyu",
+        "en": "Classic Gin and Tonic Water",
+        "ru": "Классический джин-тоник"
+      },
+      "chef": false
+    },
+    {
+      "id": 162,
+      "name": {
+        "az": "Caz imza kokteyli",
+        "en": "Jazz Signature Cocktail",
+        "ru": "Jazz Signature Cocktail"
+      },
+      "category": "Drinks",
+      "price": 19.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Müəssisənin xüsusi qarışığı",
+        "en": "Exclusive House Mix",
+        "ru": "Эксклюзивный фирменный микс"
+      },
+      "chef": true
+    },
+    {
+      "id": 163,
+      "name": {
+        "az": "Təzə portağal şirəsi",
+        "en": "Orange Fresh",
+        "ru": "Orange Fresh"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Təzə sıxılmış portağal şirəsi",
+        "en": "Freshly squeezed orange juice",
+        "ru": "Свежевыжатый апельсиновый сок"
+      },
+      "chef": false
+    },
+    {
+      "id": 164,
+      "name": {
+        "az": "Ev limonadı",
+        "en": "Homemade Lemonade",
+        "ru": "Homemade Lemonade"
+      },
+      "category": "Drinks",
+      "price": 10.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ev üsulu hazırlanmış limonad",
+        "en": "Crafted house lemonade",
+        "ru": "Домашний лимонад"
+      },
+      "chef": false
+    },
+    {
+      "id": 165,
+      "name": {
+        "az": "Tərxun limonadı",
+        "en": "Tarragon Lemonade",
+        "ru": "Tarragon Lemonade"
+      },
+      "category": "Drinks",
+      "price": 7.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ənənəvi tərxun qazlı içkisi",
+        "en": "Traditional tarragon soda",
+        "ru": "Традиционный тархун"
+      },
+      "chef": false
+    },
+    {
+      "id": 166,
+      "name": {
+        "az": "Duchess limonadı",
+        "en": "Duchess Lemonade",
+        "ru": "Duchess Lemonade"
+      },
+      "category": "Drinks",
+      "price": 7.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Armud dadlı şirin qazlı içki",
+        "en": "Pear-flavored sweet soda",
+        "ru": "Сладкая газированная напитка со вкусом груши"
+      },
+      "chef": false
+    },
+    {
+      "id": 167,
+      "name": {
+        "az": "Kompot 1L",
+        "en": "Compot 1L",
+        "ru": "Compot 1L"
+      },
+      "category": "Drinks",
+      "price": 10.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Ənənəvi yerli meyvə kompotu",
+        "en": "Traditional local fruit compote",
+        "ru": "Традиционный местный фруктовый компот"
+      },
+      "chef": false
+    },
+    {
+      "id": 168,
+      "name": {
+        "az": "Red Bull",
+        "en": "Red Bull",
+        "ru": "Red Bull"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Enerji içkisi",
+        "en": "Energy Drink",
+        "ru": "Энергетический напиток"
+      },
+      "chef": false
+    },
+    {
+      "id": 169,
+      "name": {
+        "az": "Coca-Cola (Classic / Zero)",
+        "en": "Coca-Cola (Classic / Zero)",
+        "ru": "Coca-Cola (Classic / Zero)"
+      },
+      "category": "Drinks",
+      "price": 6.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Sərinləşdirici içki",
+        "en": "Soft Drink",
+        "ru": "Безалкогольный напиток"
+      },
+      "chef": false
+    },
+    {
+      "id": 170,
+      "name": {
+        "az": "Fanta",
+        "en": "Fanta",
+        "ru": "Fanta"
+      },
+      "category": "Drinks",
+      "price": 6.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Sərinləşdirici içki",
+        "en": "Soft Drink",
+        "ru": "Безалкогольный напиток"
+      },
+      "chef": false
+    },
+    {
+      "id": 171,
+      "name": {
+        "az": "Sprite",
+        "en": "Sprite",
+        "ru": "Sprite"
+      },
+      "category": "Drinks",
+      "price": 6.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Sərinləşdirici içki",
+        "en": "Soft Drink",
+        "ru": "Безалкогольный напиток"
+      },
+      "chef": false
+    },
+    {
+      "id": 172,
+      "name": {
+        "az": "Schweppes Tonik",
+        "en": "Schweppes Tonic",
+        "ru": "Schweppes Tonic"
+      },
+      "category": "Drinks",
+      "price": 6.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Tonik suyu",
+        "en": "Tonic Water",
+        "ru": "Тоник"
+      },
+      "chef": false
+    },
+    {
+      "id": 173,
+      "name": {
+        "az": "Premium su (qazlı/qazsız)",
+        "en": "Premium Water (Sparkling/Still)",
+        "ru": "Premium Water (Sparkling/Still)"
+      },
+      "category": "Drinks",
+      "price": 6.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium butulka suyu",
+        "en": "Premium bottled water",
+        "ru": "Премиальная бутилированная вода"
+      },
+      "chef": false
+    },
+    {
+      "id": 174,
+      "name": {
+        "az": "Sarıkız mineral suyu",
+        "en": "Sarikiz Mineral Water",
+        "ru": "Sarikiz Mineral Water"
+      },
+      "category": "Drinks",
+      "price": 4.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qazlı mineral su",
+        "en": "Sparkling mineral water",
+        "ru": "Газированная минеральная вода"
+      },
+      "chef": false
+    },
+    {
+      "id": 175,
+      "name": {
+        "az": "Təbii şirə",
+        "en": "Natural Juice",
+        "ru": "Natural Juice"
+      },
+      "category": "Drinks",
+      "price": 4.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Müxtəlif butulka şirələri",
+        "en": "Assorted bottled juices",
+        "ru": "Ассорти бутилированных соков"
+      },
+      "chef": false
+    },
+    {
+      "id": 176,
+      "name": {
+        "az": "Espresso",
+        "en": "Espresso",
+        "ru": "Espresso"
+      },
+      "category": "Drinks",
+      "price": 6.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Klassik tək espresso porsiyası",
+        "en": "Classic single shot coffee",
+        "ru": "Классический одинарный эспрессо"
+      },
+      "chef": false
+    },
+    {
+      "id": 177,
+      "name": {
+        "az": "Double Espresso / Lungo",
+        "en": "Double Espresso / Lungo",
+        "ru": "Double Espresso / Lungo"
+      },
+      "category": "Drinks",
+      "price": 8.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Güclü uzadılmış qəhvə porsiyası",
+        "en": "Strong extended coffee shot",
+        "ru": "Крепкая увеличенная порция кофе"
+      },
+      "chef": false
+    },
+    {
+      "id": 178,
+      "name": {
+        "az": "Amerikano",
+        "en": "Americano",
+        "ru": "Americano"
+      },
+      "category": "Drinks",
+      "price": 8.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "İsti su ilə durulaşdırılmış espresso",
+        "en": "Espresso diluted with hot water",
+        "ru": "Эспрессо, разбавленный горячей водой"
+      },
+      "chef": false
+    },
+    {
+      "id": 179,
+      "name": {
+        "az": "Kapuçino",
+        "en": "Cappuccino",
+        "ru": "Cappuccino"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Buxarda hazırlanmış süd köpüklü espresso",
+        "en": "Espresso with steamed milk foam",
+        "ru": "Эспрессо с молочной пеной"
+      },
+      "chef": false
+    },
+    {
+      "id": 180,
+      "name": {
+        "az": "Latte",
+        "en": "Latte",
+        "ru": "Latte"
+      },
+      "category": "Drinks",
+      "price": 9.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Buxarda hazırlanmış südlə yumşaq espresso",
+        "en": "Smooth espresso with steamed milk",
+        "ru": "Нежный эспрессо с горячим молоком"
+      },
+      "chef": false
+    },
+    {
+      "id": 181,
+      "name": {
+        "az": "Raf qəhvəsi",
+        "en": "Raf Coffee",
+        "ru": "Raf Coffee"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Kremli şirin espresso qarışığı",
+        "en": "Creamy sweet espresso blend",
+        "ru": "Сливочный сладкий кофейный напиток на основе эспрессо"
+      },
+      "chef": false
+    },
+    {
+      "id": 182,
+      "name": {
+        "az": "Qəhvə Qlase",
+        "en": "Coffee Glace",
+        "ru": "Coffee Glace"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Dondurma ilə tamamlanan soyuq qəhvə",
+        "en": "Iced coffee topped with ice cream",
+        "ru": "Холодный кофе с мороженым"
+      },
+      "chef": false
+    },
+    {
+      "id": 183,
+      "name": {
+        "az": "İrlandiya qəhvəsi",
+        "en": "Irish Coffee",
+        "ru": "Irish Coffee"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qalın qaymaqla isti qəhvə, İrlandiya viskisi və şəkər",
+        "en": "Hot coffee, Irish whiskey, and sugar with thick cream",
+        "ru": "Горячий кофе с ирландским виски, сахаром и густыми сливками"
+      },
+      "chef": true
+    },
+    {
+      "id": 184,
+      "name": {
+        "az": "Klassik çay",
+        "en": "Classic Tea",
+        "ru": "Classic Tea"
+      },
+      "category": "Drinks",
+      "price": 15.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Təzə dəmlənmiş ətirli çay",
+        "en": "Freshly brewed aromatic tea",
+        "ru": "Свежезаваренный ароматный чай"
+      },
+      "chef": false
+    },
+    {
+      "id": 185,
+      "name": {
+        "az": "Caz çayı",
+        "en": "Jazz Tea",
+        "ru": "Jazz Tea"
+      },
+      "category": "Drinks",
+      "price": 20.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "İmza ətirli bitki çayı qarışığı",
+        "en": "Signature aromatic herbal tea blend",
+        "ru": "Фирменная ароматная смесь травяного чая"
+      },
+      "chef": true
+    },
+    {
+      "id": 186,
+      "name": {
+        "az": "2 nəfərlik çay dəsti",
+        "en": "Tea Set for 2 Persons",
+        "ru": "Tea Set for 2 Persons"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Desert və mürəbbə ilə təqdim olunur",
+        "en": "Served with Dessert and Jam (Mürəbbə)",
+        "ru": "Подаётся с десертом и вареньем"
+      },
+      "chef": true
+    },
+    {
+      "id": 187,
+      "name": {
+        "az": "4 nəfərlik çay dəsti",
+        "en": "Tea Set for 4 Persons",
+        "ru": "Tea Set for 4 Persons"
+      },
+      "category": "Drinks",
+      "price": 85.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Desert və mürəbbə ilə təqdim olunan böyük dəst",
+        "en": "Grand set served with Dessert and Jam (Mürəbbə)",
+        "ru": "Большой набор с десертом и вареньем"
+      },
+      "chef": true
+    }
+  ],
+  "ui": {
+    "az": {
+      "ourMenu": "MENYUMUZ",
+      "signatureCollection": "Xüsusi Seçimlər",
+      "menuDescription": "Aşpazlarımız tərəfindən sevgi və diqqətlə hazırlanmış premium yeməklər.",
+      "viewDetails": "Ətraflı bax",
+      "chefChoice": "Aşpazın seçimi",
+      "ingredients": "İnqrediyentlər",
+      "close": "Bağla"
+    },
+    "en": {
+      "ourMenu": "OUR MENU",
+      "signatureCollection": "Signature Collection",
+      "menuDescription": "Premium dishes prepared by our chefs with love and detail.",
+      "viewDetails": "View Details",
+      "chefChoice": "Chef Choice",
+      "ingredients": "Ingredients",
+      "close": "Close"
+    },
+    "ru": {
+      "ourMenu": "НАШЕ МЕНЮ",
+      "signatureCollection": "Фирменная коллекция",
+      "menuDescription": "Премиальные блюда, приготовленные нашими шеф-поварами с любовью и вниманием к деталям.",
+      "viewDetails": "Подробнее",
+      "chefChoice": "Выбор шеф-повара",
+      "ingredients": "Ингредиенты",
+      "close": "Закрыть"
+    }
+  }
+}

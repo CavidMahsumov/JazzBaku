@@ -1,0 +1,12 @@
+:host {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background: #070b12;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}

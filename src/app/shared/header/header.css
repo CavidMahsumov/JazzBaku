@@ -1,0 +1,155 @@
+.header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:9999;
+
+    transition:.4s;
+
+    background:rgba(8,12,20,.55);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+}
+
+.nav{
+
+    height:90px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo img{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+}
+
+.logo span{
+
+    font-size:28px;
+
+    font-family:'Cinzel',serif;
+
+    letter-spacing:2px;
+
+    color:white;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:45px;
+
+}
+
+nav a{
+
+    position:relative;
+
+    color:white;
+
+    font-size:15px;
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+nav a::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-8px;
+
+    left:0;
+
+    width:0;
+
+    height:2px;
+
+    background:#c9a24a;
+
+    transition:.35s;
+
+}
+
+nav a:hover{
+
+    color:#c9a24a;
+
+}
+
+nav a:hover::after{
+
+    width:100%;
+
+}
+
+.reserve-btn{
+
+    padding:14px 30px;
+
+    border-radius:50px;
+
+    background:#c9a24a;
+
+    color:#111;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.reserve-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 35px rgba(201,162,74,.35);
+
+}
+
+@media(max-width:992px){
+
+    nav{
+
+        display:none;
+
+    }
+
+}

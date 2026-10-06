@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Cinzel:wght@400;600;700&display=swap');
+
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  position: relative;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  isolation: isolate;
+}
+
+/* BACKGROUND */
+.bg-image {
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../../assets/images/caption.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transform: scale(1.05);
+  z-index: -2;
+}
+.bg-image-about{
+    position: absolute;
+  inset: 0;
+
+  background-image: url("../../../assets/images/unnamed.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transform: scale(1.05);
+  z-index: -2;
+}
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: -1;
+}
+
+/* CONTENT */
+.content {
+  position: relative;
+  z-index: 2;
+
+  text-align: center;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* TITLE */
+.title {
+  font-family: 'Cinzel', serif;
+  font-size: 90px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  text-shadow: 0 10px 40px rgba(0,0,0,0.8);
+
+  animation: fadeUp 1s ease;
+}
+
+/* TYPING */
+.typing-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #c9a24a;
+
+  min-height: 30px;
+}
+
+.typing-text::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 0.8s infinite;
+}
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+  padding: 100px 20px;
+  background: #0b0b0b;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.section-title p {
+  color: #c9a24a;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: #111;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+
+/* =========================
+   ABOUT
+========================= */
+
+.about {
+  padding: 120px 20px;
+  background: #0b0b0b;
+  color: white;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* =========================
+   REVIEWS
+========================= */
+
+.reviews-section {
+  padding: 90px 20px;
+  background: #0b0b0b;
+  text-align: center;
+  color: white;
+}
+
+.rating {
+  color: #c9a24a;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  max-width: 520px;
+  margin: auto;
+
+  padding: 30px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+.text {
+  font-size: 17px;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.author {
+  margin-top: 12px;
+  color: #c9a24a;
+}
+
+.controls button {
+  margin: 15px 6px;
+  padding: 8px 14px;
+
+  border: 1px solid #c9a24a;
+  background: transparent;
+  color: #c9a24a;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  background: #c9a24a;
+  color: #000;
+}
+
+/* =========================
+   RESERVATION (FIXED PREMIUM)
+========================= */
+
+.reservation {
+  min-height: 100vh;
+  padding: 120px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url("../../../assets/images/unnamed 3.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+/* overlay FIX */
+.reservation::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(circle, rgba(0,0,0,0.4), rgba(0,0,0,0.85));
+  z-index: 0;
+}
+
+.reservation-box {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 520px;
+
+  padding: 45px 35px;
+  border-radius: 20px;
+
+  background: rgba(20,20,20,0.55);
+  backdrop-filter: blur(18px);
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+/* FORM */
+.reservation-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.reservation-box input {
+  padding: 14px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+
+  background: rgba(255,255,255,0.06);
+  color: white;
+
+  outline: none;
+  transition: 0.3s;
+}
+
+.reservation-box input:focus {
+  border-color: #c9a24a;
+  box-shadow: 0 0 15px rgba(201,162,74,0.3);
+}
+
+.reservation-box button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg, #c9a24a, #e0b85a);
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reservation-box button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(201,162,74,0.3);
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

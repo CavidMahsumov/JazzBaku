@@ -1,0 +1,142 @@
+<section class="hero reveal">
+  <div class="bg-image"></div>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1 class="title">JazzBaku</h1>
+    <p class="typing-text">{{ typedText }}</p>
+  </div>
+</section>
+
+<section class="menu reveal">
+  <div class="section-title">
+    <h2>Signature Menu</h2>
+    <p>Curated dishes from JazzBaku kitchen</p>
+  </div>
+
+  <div class="menu-grid">
+    <div class="card">
+      <img src="../../../assets/images/butter-basted-pan-seared-steaks-recipe-hero-06-03b1131c58524be2bd6c9851a2fbdbc3.jpg" />
+      <h3>Beef Steak</h3>
+      <span>$28</span>
+    </div>
+
+    <div class="card">
+      <img src="../../../assets/images/Spicy-Tomato-Seafood-Pasta-2.jpg" />
+      <h3>Seafood Pasta</h3>
+      <span>$24</span>
+    </div>
+
+    <div class="card">
+      <img src="../../../assets/images/Burgers.png" />
+      <h3>Jazz Burger</h3>
+      <span>$18</span>
+    </div>
+  </div>
+  <div class="menu-grid">
+    <div class="card">
+      <img src="../../../assets/images/negroni.jpg" />
+      <h3>Negroni</h3>
+      <span>$9</span>
+    </div>
+
+    <div class="card">
+      <img src="../../../assets/images/Long-Island-Iced-Tea.jpg" />
+      <h3>Long Island</h3>
+      <span>$10</span>
+    </div>
+
+    <div class="card">
+      <img src="../../../assets/images/whiskysour.jpg" />
+      <h3>Whisky Sour</h3>
+      <span>$10</span>
+    </div>
+  </div>
+</section>
+
+<section class="about reveal">
+  <div class="bg-image-about"></div>
+  <div class="about-container">
+    <div class="about-text">
+      <h2>Our Story</h2>
+      <p>Located in the heart of the Old City, JazzBaku blends timeless jazz atmosphere with modern fine dining.</p>
+      <p>Every night is crafted with live music, signature cocktails and a warm, elegant atmosphere.</p>
+    </div>
+    <div class="about-image">
+      <video controls autoplay muted loop width="100%">
+  <source src="../../../assets/videos/DownReels_20260627_131409.mp4" type="video/mp4">
+</video>
+
+    </div>
+  </div>
+</section>
+
+<section class="reviews-section reveal">
+
+  <div *ngIf="loading">
+    <p>Loading reviews...</p>
+  </div>
+
+  <div *ngIf="!loading && hasReviews && currentReview">
+    <h2>{{ placeName }} Google Maps Rating</h2>
+    <p>⭐ {{ rating }} / 5</p>
+
+    <div class="review-card">
+      <h4>{{ currentReview.author }}</h4>
+      <p>{{ currentReview.text }}</p>
+      <small>{{ currentReview.rating }} / 5</small>
+    </div>
+
+    <div class="dots">
+      <span 
+        *ngFor="let r of reviews; let i = index" 
+        [class.active]="i === current"
+        (click)="selectReview(i)">
+      </span>
+    </div>
+
+    <div class="controls">
+      <button (click)="prev()">‹</button>
+      <button (click)="next()">›</button>
+    </div>
+    <div class="reviews-layout">
+
+  <!-- REVIEWS -->
+  <div class="reviews-box">
+    <!-- sənin review kodun burada -->
+  </div>
+
+  <!-- MAP -->
+ <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6079.765106161692!2d49.8337186125072!3d40.367128471328634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d520f5ab2d9%3A0x5c100b634d2a6e31!2sJazzBaku!5e0!3m2!1str!2saz!4v1782588286199!5m2!1str!2saz"
+  width="100%"
+  height="350"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6079.765106161692!2d49.8337186125072!3d40.367128471328634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d520f5ab2d9%3A0x5c100b634d2a6e31!2sJazzBaku!5e0!3m2!1str!2saz!4v1782588286199!5m2!1str!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> -->
+
+</div>
+  </div>
+
+  <div *ngIf="!loading && !hasReviews">
+    <h2>{{ placeName }}</h2>
+    <p>No reviews available</p>
+  </div>
+
+</section>
+
+<section class="reservation reveal">
+  <div class="reservation-box">
+    <h2>Reserve a Table</h2>
+    <p>Book your JazzBaku experience</p>
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Email" />
+      <input type="date" />
+      <input type="time" />
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</section>

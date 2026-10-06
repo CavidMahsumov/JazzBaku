@@ -1,0 +1,156 @@
+/* Premium Footer Ümumi Stillər */
+.premium-footer {
+  background-color: #0d0d0d; /* Tam tünd, eleqant fon */
+  color: #e5e5e5;
+  padding: 80px 0 30px 0;
+  font-family: 'Playfair Display', 'Poppins', sans-serif;
+  border-top: 1px solid #2a2218; /* Zəif qızılı xətt */
+  position: relative;
+}
+
+/* Arxa fona İçərişəhər atmosferi vermək üçün yüngül toxunuş */
+.premium-footer::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: radial-gradient(circle at 50% 20%, rgba(197, 168, 128, 0.05), transparent);
+  pointer-events: none;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 50px;
+}
+
+/* Loqo və Brend Hissəsi */
+.footer-brand .footer-logo {
+  font-size: 2.2rem;
+  color: #c5a880; /* Köhnə qızılı rəng */
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-brand .brand-text {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #a3a3a3;
+  margin-bottom: 25px;
+}
+
+/* Sosial Şəbəkə İkonları */
+.footer-socials a {
+  color: #a3a3a3;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.footer-socials a:hover {
+  color: #c5a880;
+  transform: translateY(-3px);
+}
+
+/* Başlıqlar */
+.premium-footer h3 {
+  color: #c5a880;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.premium-footer h3::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -8px;
+  width: 30px; height: 1px;
+  background-color: #c5a880;
+}
+
+/* İş Saatları Bölməsi */
+.footer-hours ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-hours ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: #a3a3a3;
+  border-bottom: 1px dashed #222;
+  padding-bottom: 5px;
+}
+
+.footer-hours ul li.live-jazz-note {
+  border-bottom: none;
+  color: #c5a880;
+  font-style: italic;
+  margin-top: 15px;
+  display: block;
+}
+
+/* Əlaqə Bölməsi */
+.footer-contact p {
+  font-size: 0.95rem;
+  color: #a3a3a3;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-contact p i {
+  color: #c5a880;
+  width: 20px;
+}
+
+/* Footer Alt Hissə */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+  padding: 30px 20px 0 20px;
+  border-top: 1px solid #1a1a1a;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  letter-spacing: 0.5px;
+}
+
+/* Responsivlik (Mobil cihazlar üçün) */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .premium-footer h3::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer-hours ul li {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .footer-contact p {
+    justify-content: center;
+  }
+}

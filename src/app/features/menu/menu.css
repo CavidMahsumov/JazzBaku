@@ -1,0 +1,788 @@
+
+/* =========================================================
+   MENU SECTION
+========================================================= */
+
+.menu {
+  background: #090909;
+  padding: 120px 8%;
+  color: white;
+  min-height: 100vh;
+}
+
+
+/* =========================================================
+   MENU HEADER
+========================================================= */
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.menu-header span {
+  display: inline-block;
+  color: #c9a24a;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu-header h2 {
+  font-size: 55px;
+  line-height: 1.15;
+  margin: 20px 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.menu-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #bbb;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   LANGUAGE SWITCHER
+========================================================= */
+
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 25px 0 45px;
+}
+
+.language-switcher button {
+  min-width: 45px;
+  height: 36px;
+  padding: 0 12px;
+
+  border: 1px solid #333;
+  border-radius: 20px;
+
+  background: #151515;
+  color: #bbb;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.language-switcher button:hover {
+  border-color: #c9a24a;
+  color: #c9a24a;
+  transform: translateY(-2px);
+}
+
+.language-switcher button.active {
+  background: #c9a24a;
+  border-color: #c9a24a;
+  color: #000;
+}
+
+
+/* =========================================================
+   CATEGORIES
+========================================================= */
+
+.menu-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.menu-categories button {
+  background: #151515;
+  color: white;
+
+  border: 1px solid transparent;
+
+  padding: 12px 26px;
+  border-radius: 30px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  white-space: nowrap;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.menu-categories button:hover {
+  background: #c9a24a;
+  color: black;
+  transform: translateY(-2px);
+}
+
+.menu-categories button.active {
+  background: #c9a24a;
+  color: black;
+}
+
+
+/* =========================================================
+   FOOD GRID
+========================================================= */
+
+.menu-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 30px;
+
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   FOOD CARD
+   menu.json:
+   id
+   name
+   category
+   price
+   image
+   description
+   chef
+========================================================= */
+
+.food-card {
+  background: #121212;
+
+  border-radius: 18px;
+  overflow: hidden;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-10px);
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+
+/* =========================================================
+   FOOD IMAGE
+   menu.json -> image
+========================================================= */
+
+.food-image {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #181818;
+
+  aspect-ratio: 16 / 10;
+}
+
+.food-image img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.5s ease;
+}
+
+.food-card:hover .food-image img {
+  transform: scale(1.1);
+}
+
+
+/* =========================================================
+   IMAGE OVERLAY
+========================================================= */
+
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+
+  transition:
+    opacity 0.3s ease;
+}
+
+.food-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay button {
+  padding: 12px 22px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: #c9a24a;
+  color: #000;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.overlay button:hover {
+  background: #e0b85a;
+  transform: scale(1.05);
+}
+
+
+/* =========================================================
+   FOOD CONTENT
+========================================================= */
+
+.food-content {
+  padding: 20px;
+}
+
+.food-content h3 {
+  font-size: 22px;
+
+  margin: 0 0 10px;
+
+  line-height: 1.3;
+
+  /* AZ / EN / RU uzun adlar üçün */
+  min-height: 57px;
+}
+
+.food-content p {
+  font-size: 14px;
+
+  color: #bbb;
+
+  margin: 0 0 15px;
+
+  line-height: 1.6;
+
+  /* Tərcümələrdə kartların ölçüsü eyni qalsın */
+  min-height: 45px;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   FOOD FOOTER
+========================================================= */
+
+.food-footer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+
+  padding-top: 5px;
+}
+
+.price {
+  font-size: 20px;
+
+  font-weight: bold;
+
+  color: #fff;
+
+  white-space: nowrap;
+}
+
+.chef {
+  color: #c9a24a;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  text-align: right;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   MODAL BACKDROP
+========================================================= */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.75);
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  z-index: 9999;
+
+  animation:
+    fadeIn 0.25s ease;
+}
+
+
+/* =========================================================
+   MODAL FADE
+========================================================= */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* =========================================================
+   MODAL BOX
+========================================================= */
+
+.modal {
+  width: 450px;
+
+  max-width: 92vw;
+  max-height: 90vh;
+
+  background: #121212;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  color: white;
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.6);
+
+  transform: scale(0.9);
+
+  animation:
+    pop 0.25s ease forwards;
+
+  overflow-y: auto;
+
+  scrollbar-width: thin;
+  scrollbar-color: #c9a24a #121212;
+}
+
+
+/* =========================================================
+   MODAL POP
+========================================================= */
+
+@keyframes pop {
+  to {
+    transform: scale(1);
+  }
+}
+
+
+/* =========================================================
+   MODAL IMAGE
+   menu.json -> image
+========================================================= */
+
+.modal > img {
+  display: block;
+
+  width: 100%;
+  height: 220px;
+
+  object-fit: cover;
+}
+
+
+/* =========================================================
+   MODAL CONTENT
+========================================================= */
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-content h2 {
+  font-size: 26px;
+
+  margin: 0 0 10px;
+
+  line-height: 1.3;
+}
+
+.modal-content p {
+  font-size: 14px;
+
+  color: #bbb;
+
+  margin: 0 0 15px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   MODAL INGREDIENT TITLE
+========================================================= */
+
+.modal-content h4 {
+  margin: 20px 0 10px;
+
+  color: #fff;
+
+  font-size: 16px;
+}
+
+
+/* =========================================================
+   INGREDIENTS
+========================================================= */
+
+.modal-content ul {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 10px 0 20px;
+}
+
+.modal-content ul li {
+  padding: 8px 0;
+
+  border-bottom:
+    1px solid #1f1f1f;
+
+  color: #ddd;
+
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   MODAL PRICE
+   menu.json -> price
+========================================================= */
+
+.modal-price {
+  font-size: 22px;
+
+  font-weight: bold;
+
+  color: #c9a24a;
+
+  margin-bottom: 15px;
+}
+
+
+/* =========================================================
+   CLOSE BUTTON
+========================================================= */
+
+.close-btn {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #c9a24a;
+
+  color: black;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.close-btn:hover {
+  background: #e0b85a;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .menu {
+    padding: 80px 5%;
+  }
+
+
+  .menu-header {
+    margin-bottom: 25px;
+  }
+
+
+  .menu-header h2 {
+    font-size: 38px;
+    margin: 15px 0;
+  }
+
+
+  .menu-header p {
+    font-size: 14px;
+  }
+
+
+  .language-switcher {
+    margin: 20px 0 35px;
+  }
+
+
+  .menu-categories {
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+
+  .menu-categories button {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+
+
+  .menu-grid {
+    grid-template-columns:
+      repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 20px;
+  }
+
+
+  .food-image {
+    aspect-ratio: 16 / 10;
+  }
+
+
+  .food-content {
+    padding: 17px;
+  }
+
+
+  .food-content h3 {
+    font-size: 20px;
+    min-height: 52px;
+  }
+
+
+  .food-content p {
+    font-size: 13px;
+    min-height: 42px;
+  }
+
+
+  .price {
+    font-size: 18px;
+  }
+
+
+  .chef {
+    font-size: 12px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .menu {
+    padding: 60px 20px;
+  }
+
+
+  .menu-header h2 {
+    font-size: 32px;
+  }
+
+
+  .menu-header span {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+
+
+  .language-switcher {
+    gap: 6px;
+  }
+
+
+  .language-switcher button {
+    min-width: 42px;
+
+    height: 34px;
+
+    padding: 0 10px;
+
+    font-size: 11px;
+  }
+
+
+  .menu-categories {
+    gap: 8px;
+  }
+
+
+  .menu-categories button {
+    padding: 9px 15px;
+    font-size: 12px;
+  }
+
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+
+  .food-image {
+    aspect-ratio: 16 / 10;
+  }
+
+
+  .food-content h3 {
+    min-height: auto;
+  }
+
+
+  .food-content p {
+    min-height: auto;
+  }
+
+
+  .food-footer {
+    align-items: flex-start;
+  }
+
+
+  .chef {
+    max-width: 50%;
+  }
+
+
+  .modal-backdrop {
+    padding: 15px;
+  }
+
+
+  .modal {
+    width: 100%;
+
+    max-width: 100%;
+
+    max-height: 92vh;
+
+    border-radius: 15px;
+  }
+
+
+  .modal > img {
+    height: 200px;
+  }
+
+
+  .modal-content {
+    padding: 18px;
+  }
+
+
+  .modal-content h2 {
+    font-size: 23px;
+  }
+
+}
+
+
+/* =========================================================
+   TOUCH DEVICES
+========================================================= */
+
+@media (hover: none) {
+
+  .food-card:hover {
+    transform: none;
+
+    box-shadow: none;
+  }
+
+
+  .food-card:hover .food-image img {
+    transform: none;
+  }
+
+
+  .overlay {
+    display: none;
+  }
+
+}
+

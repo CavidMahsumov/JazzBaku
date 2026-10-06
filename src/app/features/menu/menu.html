@@ -1,0 +1,209 @@
+```html
+<section class="menu">
+
+  <!-- HEADER -->
+  <div class="menu-header">
+    <span>{{ ui[currentLanguage].ourMenu }}</span>
+
+    <h2>
+      {{ ui[currentLanguage].signatureCollection }}
+    </h2>
+
+    <p>
+      {{ ui[currentLanguage].menuDescription }}
+    </p>
+  </div>
+
+
+  <!-- LANGUAGE -->
+  <div class="language-switcher">
+
+    <button
+      [class.active]="currentLanguage === 'az'"
+      (click)="changeLanguage('az')">
+      AZ
+    </button>
+
+    <button
+      [class.active]="currentLanguage === 'en'"
+      (click)="changeLanguage('en')">
+      EN
+    </button>
+
+    <button
+      [class.active]="currentLanguage === 'ru'"
+      (click)="changeLanguage('ru')">
+      RU
+    </button>
+
+  </div>
+
+
+  <!-- CATEGORY -->
+  <div class="menu-categories">
+
+    <button
+      *ngFor="let cat of categories"
+      (click)="selectCategory(cat.key)"
+      [class.active]="cat.key === selectedCategory">
+
+      {{ cat[currentLanguage] }}
+
+    </button>
+
+  </div>
+
+
+  <!-- GRID -->
+  <div class="menu-grid">
+
+    <div
+      class="food-card"
+      *ngFor="let food of filteredFoods"
+      (click)="openModal(food)">
+
+      <!-- IMAGE -->
+      <div class="food-image">
+
+        <img
+          [src]="food.image || 'https://via.placeholder.com/500x400?text=Food'"
+          [alt]="food.name?.[currentLanguage]">
+
+        <div class="overlay">
+
+          <button>
+            {{ ui[currentLanguage].viewDetails }}
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- CONTENT -->
+      <div class="food-content">
+
+        <h3>
+          {{ food.name?.[currentLanguage] }}
+        </h3>
+
+        <p>
+          {{ food.description?.[currentLanguage] }}
+        </p>
+
+
+        <div class="food-footer">
+
+          <span
+            class="chef"
+            *ngIf="food.chef">
+
+            ★ {{ ui[currentLanguage].chefChoice }}
+
+          </span>
+
+          <!-- PRICE -->
+          <!--
+          <span class="price">
+            {{ food.price }} ₼
+          </span>
+          -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= MODAL ================= -->
+
+<div
+  class="modal-backdrop"
+  *ngIf="isModalOpen"
+  (click)="closeModal()">
+
+
+  <div
+    class="modal"
+    (click)="$event.stopPropagation()">
+
+
+    <!-- IMAGE -->
+
+    <img
+      [src]="selectedFood?.image || 'https://via.placeholder.com/500x400?text=Food'"
+      [alt]="selectedFood?.name?.[currentLanguage]">
+
+
+    <!-- CONTENT -->
+
+    <div class="modal-content">
+
+
+      <!-- NAME -->
+
+      <h2>
+        {{ selectedFood?.name?.[currentLanguage] }}
+      </h2>
+
+
+      <!-- DESCRIPTION -->
+
+      <p>
+        {{ selectedFood?.description?.[currentLanguage] }}
+      </p>
+
+
+      <!-- PRICE -->
+
+      <div class="modal-price">
+
+        {{ selectedFood?.price }} ₼
+
+      </div>
+
+
+      <!-- INGREDIENTS -->
+
+      <h4>
+        {{ ui[currentLanguage].ingredients }}
+      </h4>
+
+
+      <ul>
+
+        <li
+          *ngFor="
+            let ing of selectedFood?.ingredients?.[currentLanguage]
+          ">
+
+          {{ ing }}
+
+        </li>
+
+      </ul>
+
+
+      <!-- CLOSE -->
+
+      <button
+        class="close-btn"
+        (click)="closeModal()">
+
+        {{ ui[currentLanguage].close }}
+
+      </button>
+
+
+    </div>
+
+  </div>
+
+</div>
+```
