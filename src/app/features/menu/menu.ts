@@ -76,7 +76,7 @@ export class Menu implements OnInit {
   ui = {
 
     az: {
-      ourMenu: 'MENYUMUZ',
+      ourMenu: 'MENYU',
       signatureCollection: 'Xüsusi Seçimlər',
       menuDescription:
         'Aşpazlarımız tərəfindən sevgi və diqqətlə hazırlanmış premium yeməklər.',
@@ -87,7 +87,7 @@ export class Menu implements OnInit {
     },
 
     en: {
-      ourMenu: 'OUR MENU',
+      ourMenu: 'MENU',
       signatureCollection: 'Signature Collection',
       menuDescription:
         'Premium dishes prepared by our chefs with love and detail.',
@@ -98,7 +98,7 @@ export class Menu implements OnInit {
     },
 
     ru: {
-      ourMenu: 'НАШЕ МЕНЮ',
+      ourMenu: 'МЕНЮ',
       signatureCollection: 'Фирменная коллекция',
       menuDescription:
         'Премиальные блюда, приготовленные нашими шеф-поварами с любовью и вниманием к деталям.',

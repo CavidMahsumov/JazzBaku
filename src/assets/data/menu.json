@@ -25,16 +25,70 @@
       "ru": "Салаты"
     },
     {
-      "key": "Appetizer",
-      "az": "Qəlyanaltılar",
-      "en": "Appetizer",
-      "ru": "Закуски"
+      "key": "Meze",
+      "az": "Məzələr",
+      "en": "Meze",
+      "ru": "Мезе"
     },
     {
       "key": "Burger",
       "az": "Burgerlər",
       "en": "Burger",
       "ru": "Бургеры"
+    },
+    {
+      "key": "HotAppetizer",
+      "az": "İsti qəlyanaltılar",
+      "en": "Hot Appetizers",
+      "ru": "Горячие закуски"
+    },
+    {
+      "key": "ColdAppetizer",
+      "az": "Soyuq qəlyanaltılar",
+      "en": "Cold Appetizers",
+      "ru": "Холодные закуски"
+    },
+    {
+      "key": "National",
+      "az": "Milli mətbəx",
+      "en": "National Cuisine",
+      "ru": "Национальная кухня"
+    },
+    {
+      "key": "World",
+      "az": "Dünya mətbəxi",
+      "en": "World Cuisine",
+      "ru": "Мировая кухня"
+    },
+    {
+      "key": "Steak",
+      "az": "28 gün dinlənmiş steyklər",
+      "en": "28-Day Aged Steaks",
+      "ru": "Стейки 28-дневной выдержки"
+    },
+    {
+      "key": "Sides",
+      "az": "Qarnirlər",
+      "en": "Sides",
+      "ru": "Гарниры"
+    },
+    {
+      "key": "Fish",
+      "az": "Balıq yeməkləri",
+      "en": "Fish Dishes",
+      "ru": "Рыбные блюда"
+    },
+    {
+      "key": "BeerSnacks",
+      "az": "Pivə məzələri",
+      "en": "Beer Snacks",
+      "ru": "Закуски к пиву"
+    },
+    {
+      "key": "Nuts",
+      "az": "Çərəzlər",
+      "en": "Nuts & Dry Fruits",
+      "ru": "Орехи и сухофрукты"
     },
     {
       "key": "Dessert",
@@ -53,7 +107,7 @@
     {
       "id": 1,
       "name": {
-        "az": "1 nəfərlik səhər yeməyi",
+        "az": "Səhər yeməyi, 1 nəfərlik",
         "en": "Breakfast for 1 person",
         "ru": "Завтрак на 1 персону"
       },
@@ -61,9 +115,9 @@
       "price": 25.0,
       "image": "assets/images/breakfast.jpg",
       "description": {
-        "az": "Pomidorlu yumurta, pendirli omlet və ya qızardılmış yumurta seçimləri ilə isti yeməklər.",
-        "en": "Hot meals with a choice of Eggs with tomato, cheese omelet, or fried egg.",
-        "ru": "Горячие блюда на выбор: яйца с помидорами, омлет с сыром или жареное яйцо."
+        "az": "Bal, qaymaq, ağ pendir, pomidor, xiyar, izqara sosis, kolbasa, Bakı əncir mürəbbəsi, qarışıq zeytun, şor, küküt, siqara böreyi, smit, çörək, süzmə, ağ gilas mürəbbəsi, kərə yağı, ev sayağı yoqurt seti. İsti yeməklər seçim ilə: pomidor yumurta, yağda yumurta, pendirli omlet.",
+        "en": "Honey, kaymak cream, white cheese, tomato, cucumber, grilled sausage, kolbasa, Baku fig jam, mixed olives, shor cheese, kuku, sigara boreyi, smit, bread, strained cheese, white cherry jam, butter, and a house-style yogurt set. Hot dish of your choice: eggs with tomato, fried eggs, or cheese omelet.",
+        "ru": "Мёд, каймак, белый сыр, помидор, огурец, колбаска на гриле, колбаса, бакинское инжирное варенье, ассорти оливок, шор, кюкю, сигара-бёрек, смит, хлеб, сузме, варенье из белой черешни, сливочное масло и домашний йогуртовый сет. Горячее блюдо на выбор: яйца с помидорами, яичница или омлет с сыром."
       },
       "chef": true
     },
@@ -155,7 +209,7 @@
     {
       "id": 7,
       "name": {
-        "az": "Albalı pomidorlu salat",
+        "az": "Vişnəli pomidor salatı",
         "en": "Tomato Salad with Cherry",
         "ru": "Салат с помидорами черри"
       },
@@ -163,7 +217,7 @@
       "price": 12.0,
       "image": "assets/images/tomato_cherry_salad.jpg",
       "description": {
-        "az": "Şirin albalı pomidorları ilə zənginləşdirilmiş ənənəvi salat.",
+        "az": "Şirin vişnə pomidorları ilə zənginləşdirilmiş ənənəvi salat.",
         "en": "Elevated traditional salad with sweet cherry tomatoes.",
         "ru": "Традиционный салат со сладкими помидорами черри."
       },
@@ -172,7 +226,7 @@
     {
       "id": 8,
       "name": {
-        "az": "Xırtıldayan badımcan salatı",
+        "az": "Xırt xırt badımcan salatı",
         "en": "Crispy Eggplant Salad",
         "ru": "Салат с хрустящими баклажанами"
       },
@@ -189,7 +243,7 @@
     {
       "id": 9,
       "name": {
-        "az": "Toyuqlu Sezar salatı",
+        "az": "Sezar salatı toyuq ilə",
         "en": "Caesar Salad with Chicken",
         "ru": "Салат Цезарь с курицей"
       },
@@ -206,7 +260,7 @@
     {
       "id": 10,
       "name": {
-        "az": "Krevetkalı Sezar salatı",
+        "az": "Sezar salatı krevetka ilə",
         "en": "Caesar Salad with Prawns",
         "ru": "Салат Цезарь с креветками"
       },
@@ -223,7 +277,7 @@
     {
       "id": 11,
       "name": {
-        "az": "Popkorn krevetkalı salat",
+        "az": "Krevetka popkorn salatı (mango sousu ilə)",
         "en": "Prawns Popcorn Salad",
         "ru": "Салат с креветками попкорн"
       },
@@ -240,7 +294,7 @@
     {
       "id": 12,
       "name": {
-        "az": "Popkorn toyuqlu salat",
+        "az": "Toyuq popkorn salatı (mango sousu ilə)",
         "en": "Chicken Popcorn Salad",
         "ru": "Салат с курицей попкорн"
       },
@@ -257,7 +311,7 @@
     {
       "id": 13,
       "name": {
-        "az": "Caz salatı",
+        "az": "Jazz salatı",
         "en": "Jazz Salad",
         "ru": "Салат Джаз"
       },
@@ -308,7 +362,7 @@
     {
       "id": 16,
       "name": {
-        "az": "Burrata salatı",
+        "az": "Burata salatı",
         "en": "Burrata Salad",
         "ru": "Салат с бурратой"
       },
@@ -325,7 +379,7 @@
     {
       "id": 17,
       "name": {
-        "az": "Keçi pendirli qızardılmış çuğundur salatı",
+        "az": "Keçi pendirli çuğundur salatı (sitrus sous)",
         "en": "Roasted Beetroot Salad with Goat Cheese",
         "ru": "Салат из запечённой свёклы с козьим сыром"
       },
@@ -346,7 +400,7 @@
         "en": "Haydari",
         "ru": "Хайдари"
       },
-      "category": "Appetizer",
+      "category": "Meze",
       "price": 9.0,
       "image": "assets/images/haydari.jpg",
       "description": {
@@ -363,7 +417,7 @@
         "en": "Atom",
         "ru": "Атом"
       },
-      "category": "Appetizer",
+      "category": "Meze",
       "price": 9.0,
       "image": "assets/images/atom.jpg",
       "description": {
@@ -380,7 +434,7 @@
         "en": "Babagonoush",
         "ru": "Бабагануш"
       },
-      "category": "Appetizer",
+      "category": "Meze",
       "price": 10.0,
       "image": "assets/images/babagonoush.jpg",
       "description": {
@@ -391,264 +445,9 @@
       "chef": false
     },
     {
-      "id": 21,
-      "name": {
-        "az": "Müxtəlif zeytunlar",
-        "en": "Olives Assorted",
-        "ru": "Ассорти оливок"
-      },
-      "category": "Appetizer",
-      "price": 10.0,
-      "image": "assets/images/olives.jpg",
-      "description": {
-        "az": "Premium yerli və xarici marinad edilmiş zeytunlardan seçim.",
-        "en": "A selection of premium marinated local and international olives.",
-        "ru": "Ассорти премиальных маринованных местных и зарубежных оливок."
-      },
-      "chef": false
-    },
-    {
-      "id": 22,
-      "name": {
-        "az": "Qarışıq turşular",
-        "en": "Mixed Pickles",
-        "ru": "Ассорти солений"
-      },
-      "category": "Appetizer",
-      "price": 12.0,
-      "image": "assets/images/pickles.jpg",
-      "description": {
-        "az": "Evdə hazırlanmış xırtıldayan və turşməzə tərəvəz turşuları assortisi.",
-        "en": "Assorted crisp and tangy house-made pickled vegetables.",
-        "ru": "Ассорти хрустящих пикантных домашних солений."
-      },
-      "chef": false
-    },
-    {
-      "id": 23,
-      "name": {
-        "az": "Yerli pendir assortisi",
-        "en": "Local Cheese Platter",
-        "ru": "Ассорти местных сыров"
-      },
-      "category": "Appetizer",
-      "price": 16.0,
-      "image": "assets/images/local_cheese.jpg",
-      "description": {
-        "az": "Ənənəvi Azərbaycan pendirlərindən seçilmiş qarışıq assorti.",
-        "en": "A curated selection of traditional mixed Azerbaijani cheeses.",
-        "ru": "Подборка традиционных азербайджанских сыров."
-      },
-      "chef": false
-    },
-    {
-      "id": 24,
-      "name": {
-        "az": "Qarışıq pendir assortisi",
-        "en": "Mixed Cheese Platter",
-        "ru": "Ассорти сыров"
-      },
-      "category": "Appetizer",
-      "price": 35.0,
-      "image": "assets/images/mixed_cheese.jpg",
-      "description": {
-        "az": "Keyfiyyətli yerli və beynəlxalq pendirlərdən premium seçim.",
-        "en": "Premium collection of fine international and local cheeses.",
-        "ru": "Премиальная подборка качественных местных и зарубежных сыров."
-      },
-      "chef": false
-    },
-    {
-      "id": 25,
-      "name": {
-        "az": "Qarışıq ət assortisi",
-        "en": "Mixed Meat Platter",
-        "ru": "Ассорти мясных деликатесов"
-      },
-      "category": "Appetizer",
-      "price": 75.0,
-      "image": "assets/images/meat_platter.jpg",
-      "description": {
-        "az": "Premium qurudulmuş, hisə verilmiş və qovrulmuş ətlərdən zəngin seçim.",
-        "en": "Grand selection of premium cured, smoked, and roasted meats.",
-        "ru": "Большое ассорти премиальных вяленых, копчёных и запечённых мясных деликатесов."
-      },
-      "chef": true
-    },
-    {
-      "id": 26,
-      "name": {
-        "az": "Çarküteri assortisi",
-        "en": "Charcuterie",
-        "ru": "Чарcuterie ассорти"
-      },
-      "category": "Appetizer",
-      "price": 55.0,
-      "image": "assets/images/charcuterie.jpg",
-      "description": {
-        "az": "Qurman soyuq ət məhsulları və əlavə məhsullardan xüsusi seçim.",
-        "en": "Exquisite selection of gourmet cold cuts and accompaniments.",
-        "ru": "Изысканная подборка мясных деликатесов и дополнений."
-      },
-      "chef": false
-    },
-    {
-      "id": 27,
-      "name": {
-        "az": "Pomidorlu brusketta",
-        "en": "Bruschetta with Tomato",
-        "ru": "Брускетта с томатами"
-      },
-      "category": "Appetizer",
-      "price": 16.0,
-      "image": "assets/images/bruschetta_tomato.jpg",
-      "description": {
-        "az": "Doğranmış pomidor, sarımsaq, reyhan və zeytun yağı ilə tamamlanan qızardılmış çörək.",
-        "en": "Toasted bread topped with diced tomatoes, garlic, basil, and olive oil.",
-        "ru": "Поджаренный хлеб с нарезанными помидорами, чесноком, базиликом и оливковым маслом."
-      },
-      "chef": false
-    },
-    {
-      "id": 28,
-      "name": {
-        "az": "Avokadolu brusketta",
-        "en": "Bruschetta with Avocado",
-        "ru": "Брускетта с авокадо"
-      },
-      "category": "Appetizer",
-      "price": 18.0,
-      "image": "assets/images/bruschetta_avocado.jpg",
-      "description": {
-        "az": "Kremli əzilmiş avokado və ədviyyatlarla hazırlanan xırtıldayan çörək dilimləri.",
-        "en": "Crispy bread slices layered with creamy mashed avocado and seasoning.",
-        "ru": "Хрустящие ломтики хлеба с кремовым пюре из авокадо и приправами."
-      },
-      "chef": false
-    },
-    {
-      "id": 29,
-      "name": {
-        "az": "Somonlu brusketta",
-        "en": "Salmon Bruschetta",
-        "ru": "Брускетта с лососем"
-      },
-      "category": "Appetizer",
-      "price": 25.0,
-      "image": "assets/images/salmon_bruschetta.jpg",
-      "description": {
-        "az": "Premium hisə verilmiş qızılbalıq və krem pendirlə hazırlanmış zərif qızardılmış çörək.",
-        "en": "Elegant toasted bread with premium smoked salmon and cream cheese.",
-        "ru": "Поджаренный хлеб с премиальным копчёным лососем и сливочным сыром."
-      },
-      "chef": true
-    },
-    {
-      "id": 30,
-      "name": {
-        "az": "BBQ souslu qızardılmış toyuq qanadları",
-        "en": "Fried Chicken Wings with BBQ Sauce",
-        "ru": "Куриные крылышки с соусом BBQ"
-      },
-      "category": "Appetizer",
-      "price": 15.0,
-      "image": "assets/images/bbq_wings.jpg",
-      "description": {
-        "az": "Zəngin, hisli barbekü sousu ilə örtülmüş xırtıldayan qızardılmış qanadlar.",
-        "en": "Crispy fried wings glazed in rich, smoky barbecue sauce.",
-        "ru": "Хрустящие жареные крылышки в насыщенном дымном соусе барбекю."
-      },
-      "chef": false
-    },
-    {
-      "id": 31,
-      "name": {
-        "az": "Kartof fri ilə toyuq naggetsləri",
-        "en": "Chicken Nuggets with French Fries",
-        "ru": "Куриные наггетсы с картофелем фри"
-      },
-      "category": "Appetizer",
-      "price": 15.0,
-      "image": "assets/images/nuggets.jpg",
-      "description": {
-        "az": "Qızılı toyuq naggetsləri xırtıldayan kartof fri ilə təqdim olunur.",
-        "en": "Golden chicken nuggets served with a side of crispy fries.",
-        "ru": "Золотистые куриные наггетсы с хрустящим картофелем фри."
-      },
-      "chef": false
-    },
-    {
-      "id": 32,
-      "name": {
-        "az": "Mozzarella çubuqları",
-        "en": "Mozzarella Sticks",
-        "ru": "Палочки моцареллы"
-      },
-      "category": "Appetizer",
-      "price": 18.0,
-      "image": "assets/images/mozzarella_sticks.jpg",
-      "description": {
-        "az": "Qızılı çörək qırıntıları ilə örtülmüş, içi əriyən mozzarella pendiri.",
-        "en": "Melty, stringy mozzarella cheese coated in golden breadcrumbs.",
-        "ru": "Тягучая расплавленная моцарелла в золотистой панировке."
-      },
-      "chef": false
-    },
-    {
-      "id": 33,
-      "name": {
-        "az": "Tempura krevetkaları (6 ədəd)",
-        "en": "Prawns Tempura (6 pcs)",
-        "ru": "Креветки темпура (6 шт.)"
-      },
-      "category": "Appetizer",
-      "price": 25.0,
-      "image": "assets/images/prawns_tempura.jpg",
-      "description": {
-        "az": "Yüngül və xırtıldayan yapon üslublu xəmirdə krevetkalar.",
-        "en": "Light and crispy Japanese-style battered prawns.",
-        "ru": "Лёгкие и хрустящие креветки в японском стиле темпура."
-      },
-      "chef": true
-    },
-    {
-      "id": 34,
-      "name": {
-        "az": "Qarışıq göyərtili qutab",
-        "en": "Mixed Herb Qutab",
-        "ru": "Кутаб с зеленью"
-      },
-      "category": "Appetizer",
-      "price": 5.0,
-      "image": "assets/images/herb_qutab.jpg",
-      "description": {
-        "az": "Təzə göyərti ilə doldurulmuş ənənəvi nazik xəmir.",
-        "en": "Traditional thin dough filled with fresh green herbs.",
-        "ru": "Традиционное тонкое тесто с начинкой из свежей зелени."
-      },
-      "chef": false
-    },
-    {
-      "id": 35,
-      "name": {
-        "az": "Ət qutabı",
-        "en": "Meat Qutab",
-        "ru": "Кутаб с мясом"
-      },
-      "category": "Appetizer",
-      "price": 4.0,
-      "image": "assets/images/meat_qutab.jpg",
-      "description": {
-        "az": "Dadlı qiymə ilə doldurulmuş ənənəvi Azərbaycan nazik yuxa çörəyi.",
-        "en": "Traditional Azerbaijani thin flatbread stuffed with savory minced meat.",
-        "ru": "Традиционная азербайджанская тонкая лепёшка с пикантным мясным фаршем."
-      },
-      "chef": false
-    },
-    {
       "id": 36,
       "name": {
-        "az": "Mal əti burgeri və kartof fri",
+        "az": "Dana burgeri kartof fri ilə",
         "en": "Beef Burger and French Fries",
         "ru": "Бургер с говядиной и картофелем фри"
       },
@@ -665,7 +464,7 @@
     {
       "id": 37,
       "name": {
-        "az": "Toyuq burgeri və kartof fri",
+        "az": "Toyuq burgeri kartof fri ilə",
         "en": "Chicken Burger and French Fries",
         "ru": "Куриный бургер и картофель фри"
       },
@@ -680,13 +479,897 @@
       "chef": false
     },
     {
+      "id": 35,
+      "name": {
+        "az": "Ət qutabı",
+        "en": "Meat Qutab",
+        "ru": "Кутаб с мясом"
+      },
+      "category": "HotAppetizer",
+      "price": 5.0,
+      "image": "assets/images/meat_qutab.jpg",
+      "description": {
+        "az": "Dadlı qiymə ilə doldurulmuş ənənəvi Azərbaycan nazik yuxa çörəyi.",
+        "en": "Traditional Azerbaijani thin flatbread stuffed with savory minced meat.",
+        "ru": "Традиционная азербайджанская тонкая лепёшка с пикантным мясным фаршем."
+      },
+      "chef": false
+    },
+    {
+      "id": 30,
+      "name": {
+        "az": "BBQ souslu qızardılmış toyuq qanadları",
+        "en": "Fried Chicken Wings with BBQ Sauce",
+        "ru": "Куриные крылышки с соусом BBQ"
+      },
+      "category": "HotAppetizer",
+      "price": 15.0,
+      "image": "assets/images/bbq_wings.jpg",
+      "description": {
+        "az": "Zəngin, hisli barbekü sousu ilə örtülmüş xırtıldayan qızardılmış qanadlar.",
+        "en": "Crispy fried wings glazed in rich, smoky barbecue sauce.",
+        "ru": "Хрустящие жареные крылышки в насыщенном дымном соусе барбекю."
+      },
+      "chef": false
+    },
+    {
+      "id": 31,
+      "name": {
+        "az": "Kartof fri ilə toyuq naggetsləri",
+        "en": "Chicken Nuggets with French Fries",
+        "ru": "Куриные наггетсы с картофелем фри"
+      },
+      "category": "HotAppetizer",
+      "price": 15.0,
+      "image": "assets/images/nuggets.jpg",
+      "description": {
+        "az": "Qızılı toyuq naggetsləri xırtıldayan kartof fri ilə təqdim olunur.",
+        "en": "Golden chicken nuggets served with a side of crispy fries.",
+        "ru": "Золотистые куриные наггетсы с хрустящим картофелем фри."
+      },
+      "chef": false
+    },
+    {
+      "id": 32,
+      "name": {
+        "az": "Mozzarella çubuqları",
+        "en": "Mozzarella Sticks",
+        "ru": "Палочки моцареллы"
+      },
+      "category": "HotAppetizer",
+      "price": 18.0,
+      "image": "assets/images/mozzarella_sticks.jpg",
+      "description": {
+        "az": "Qızılı çörək qırıntıları ilə örtülmüş, içi əriyən mozzarella pendiri.",
+        "en": "Melty, stringy mozzarella cheese coated in golden breadcrumbs.",
+        "ru": "Тягучая расплавленная моцарелла в золотистой панировке."
+      },
+      "chef": false
+    },
+    {
+      "id": 33,
+      "name": {
+        "az": "Tempura krevetkaları (6 ədəd)",
+        "en": "Prawns Tempura (6 pcs)",
+        "ru": "Креветки темпура (6 шт.)"
+      },
+      "category": "HotAppetizer",
+      "price": 25.0,
+      "image": "assets/images/prawns_tempura.jpg",
+      "description": {
+        "az": "Yüngül və xırtıldayan yapon üslublu xəmirdə krevetkalar.",
+        "en": "Light and crispy Japanese-style battered prawns.",
+        "ru": "Лёгкие и хрустящие креветки в японском стиле темпура."
+      },
+      "chef": true
+    },
+    {
+      "id": 34,
+      "name": {
+        "az": "Qarışıq göyərtili qutab",
+        "en": "Mixed Herb Qutab",
+        "ru": "Кутаб с зеленью"
+      },
+      "category": "HotAppetizer",
+      "price": 4.0,
+      "image": "assets/images/herb_qutab.jpg",
+      "description": {
+        "az": "Təzə göyərti ilə doldurulmuş ənənəvi nazik xəmir.",
+        "en": "Traditional thin dough filled with fresh green herbs.",
+        "ru": "Традиционное тонкое тесто с начинкой из свежей зелени."
+      },
+      "chef": false
+    },
+    {
+      "id": 21,
+      "name": {
+        "az": "Müxtəlif zeytunlar",
+        "en": "Olives Assorted",
+        "ru": "Ассорти оливок"
+      },
+      "category": "ColdAppetizer",
+      "price": 10.0,
+      "image": "assets/images/olives.jpg",
+      "description": {
+        "az": "Premium yerli və xarici marinad edilmiş zeytunlardan seçim.",
+        "en": "A selection of premium marinated local and international olives.",
+        "ru": "Ассорти премиальных маринованных местных и зарубежных оливок."
+      },
+      "chef": false
+    },
+    {
+      "id": 22,
+      "name": {
+        "az": "Qarışıq turşular",
+        "en": "Mixed Pickles",
+        "ru": "Ассорти солений"
+      },
+      "category": "ColdAppetizer",
+      "price": 12.0,
+      "image": "assets/images/pickles.jpg",
+      "description": {
+        "az": "Evdə hazırlanmış xırtıldayan və turşməzə tərəvəz turşuları assortisi.",
+        "en": "Assorted crisp and tangy house-made pickled vegetables.",
+        "ru": "Ассорти хрустящих пикантных домашних солений."
+      },
+      "chef": false
+    },
+    {
+      "id": 23,
+      "name": {
+        "az": "Yerli pendir assortisi",
+        "en": "Local Cheese Platter",
+        "ru": "Ассорти местных сыров"
+      },
+      "category": "ColdAppetizer",
+      "price": 16.0,
+      "image": "assets/images/local_cheese.jpg",
+      "description": {
+        "az": "Ənənəvi Azərbaycan pendirlərindən seçilmiş qarışıq assorti.",
+        "en": "A curated selection of traditional mixed Azerbaijani cheeses.",
+        "ru": "Подборка традиционных азербайджанских сыров."
+      },
+      "chef": false
+    },
+    {
+      "id": 24,
+      "name": {
+        "az": "Qarışıq pendir assortisi",
+        "en": "Mixed Cheese Platter",
+        "ru": "Ассорти сыров"
+      },
+      "category": "ColdAppetizer",
+      "price": 35.0,
+      "image": "assets/images/mixed_cheese.jpg",
+      "description": {
+        "az": "Keyfiyyətli yerli və beynəlxalq pendirlərdən premium seçim.",
+        "en": "Premium collection of fine international and local cheeses.",
+        "ru": "Премиальная подборка качественных местных и зарубежных сыров."
+      },
+      "chef": false
+    },
+    {
+      "id": 25,
+      "name": {
+        "az": "Qarışıq ət assortisi",
+        "en": "Mixed Meat Platter",
+        "ru": "Ассорти мясных деликатесов"
+      },
+      "category": "ColdAppetizer",
+      "price": 75.0,
+      "image": "assets/images/meat_platter.jpg",
+      "description": {
+        "az": "Premium qurudulmuş, hisə verilmiş və qovrulmuş ətlərdən zəngin seçim.",
+        "en": "Grand selection of premium cured, smoked, and roasted meats.",
+        "ru": "Большое ассорти премиальных вяленых, копчёных и запечённых мясных деликатесов."
+      },
+      "chef": true
+    },
+    {
+      "id": 26,
+      "name": {
+        "az": "Şarkuter seti",
+        "en": "Charcuterie",
+        "ru": "Шаркютри ассорти"
+      },
+      "category": "ColdAppetizer",
+      "price": 55.0,
+      "image": "assets/images/charcuterie.jpg",
+      "description": {
+        "az": "Qurman soyuq ət məhsulları və əlavə məhsullardan xüsusi seçim.",
+        "en": "Exquisite selection of gourmet cold cuts and accompaniments.",
+        "ru": "Изысканная подборка мясных деликатесов и дополнений."
+      },
+      "chef": false
+    },
+    {
+      "id": 27,
+      "name": {
+        "az": "Pomidorlu brusketta",
+        "en": "Bruschetta with Tomato",
+        "ru": "Брускетта с томатами"
+      },
+      "category": "ColdAppetizer",
+      "price": 16.0,
+      "image": "assets/images/bruschetta_tomato.jpg",
+      "description": {
+        "az": "Doğranmış pomidor, sarımsaq, reyhan və zeytun yağı ilə tamamlanan qızardılmış çörək.",
+        "en": "Toasted bread topped with diced tomatoes, garlic, basil, and olive oil.",
+        "ru": "Поджаренный хлеб с нарезанными помидорами, чесноком, базиликом и оливковым маслом."
+      },
+      "chef": false
+    },
+    {
+      "id": 28,
+      "name": {
+        "az": "Avokadolu brusketta",
+        "en": "Bruschetta with Avocado",
+        "ru": "Брускетта с авокадо"
+      },
+      "category": "ColdAppetizer",
+      "price": 18.0,
+      "image": "assets/images/bruschetta_avocado.jpg",
+      "description": {
+        "az": "Kremli əzilmiş avokado və ədviyyatlarla hazırlanan xırtıldayan çörək dilimləri.",
+        "en": "Crispy bread slices layered with creamy mashed avocado and seasoning.",
+        "ru": "Хрустящие ломтики хлеба с кремовым пюре из авокадо и приправами."
+      },
+      "chef": false
+    },
+    {
+      "id": 29,
+      "name": {
+        "az": "Somonlu brusketta",
+        "en": "Salmon Bruschetta",
+        "ru": "Брускетта с лососем"
+      },
+      "category": "ColdAppetizer",
+      "price": 25.0,
+      "image": "assets/images/salmon_bruschetta.jpg",
+      "description": {
+        "az": "Premium hisə verilmiş qızılbalıq və krem pendirlə hazırlanmış zərif qızardılmış çörək.",
+        "en": "Elegant toasted bread with premium smoked salmon and cream cheese.",
+        "ru": "Поджаренный хлеб с премиальным копчёным лососем и сливочным сыром."
+      },
+      "chef": true
+    },
+    {
+      "id": 188,
+      "name": {
+        "az": "Kənd çolpası, kənd sayağı kartof ilə",
+        "en": "Village Cholpa with Country-Style Potatoes",
+        "ru": "Деревенская чолпа с картофелем по-деревенски"
+      },
+      "category": "National",
+      "price": 29.0,
+      "image": "assets/images/village_cholpa.jpg",
+      "description": {
+        "az": "Kənd sayağı kartof ilə təqdim olunan ənənəvi kənd çolpası.",
+        "en": "Traditional village-style cholpa served with country-style potatoes.",
+        "ru": "Традиционная деревенская чолпа, подаётся с картофелем по-деревенски."
+      },
+      "chef": false
+    },
+    {
+      "id": 189,
+      "name": {
+        "az": "Çoban qovurma",
+        "en": "Shepherd's Qovurma",
+        "ru": "Чобан-говурма"
+      },
+      "category": "National",
+      "price": 35.0,
+      "image": "assets/images/shepherd_qovurma.jpg",
+      "description": {
+        "az": "Ənənəvi Azərbaycan çoban qovurması.",
+        "en": "Traditional Azerbaijani shepherd-style qovurma.",
+        "ru": "Традиционная азербайджанская говурма по-чабански."
+      },
+      "chef": false
+    },
+    {
+      "id": 190,
+      "name": {
+        "az": "Sac quzu əti ilə",
+        "en": "Sac with Lamb",
+        "ru": "Садж с бараниной"
+      },
+      "category": "National",
+      "price": 58.0,
+      "image": "assets/images/sac_lamb.jpg",
+      "description": {
+        "az": "Sacda hazırlanan ənənəvi Azərbaycan yeməyi, quzu əti ilə.",
+        "en": "Traditional Azerbaijani sac dish prepared with lamb.",
+        "ru": "Традиционное азербайджанское блюдо на садже с бараниной."
+      },
+      "chef": false
+    },
+    {
+      "id": 191,
+      "name": {
+        "az": "Sac dana əti ilə",
+        "en": "Sac with Veal",
+        "ru": "Садж с телятиной"
+      },
+      "category": "National",
+      "price": 54.0,
+      "image": "assets/images/sac_veal.jpg",
+      "description": {
+        "az": "Sacda hazırlanan ənənəvi Azərbaycan yeməyi, dana əti ilə.",
+        "en": "Traditional Azerbaijani sac dish prepared with veal.",
+        "ru": "Традиционное азербайджанское блюдо на садже с телятиной."
+      },
+      "chef": false
+    },
+    {
+      "id": 192,
+      "name": {
+        "az": "Dana qovurma",
+        "en": "Veal Qovurma",
+        "ru": "Говурма из телятины"
+      },
+      "category": "National",
+      "price": 32.0,
+      "image": "assets/images/veal_qovurma.jpg",
+      "description": {
+        "az": "Ənənəvi üsulla hazırlanmış dana qovurması.",
+        "en": "Veal qovurma prepared in the traditional way.",
+        "ru": "Говурма из телятины, приготовленная по традиционному рецепту."
+      },
+      "chef": false
+    },
+    {
+      "id": 193,
+      "name": {
+        "az": "Vişnəli can əti",
+        "en": "Can Meat with Sour Cherry",
+        "ru": "Мясо «джан» с вишней"
+      },
+      "category": "National",
+      "price": 47.0,
+      "image": "assets/images/cherry_can_meat.jpg",
+      "description": {
+        "az": "Vişnə ilə hazırlanan can əti yeməyi.",
+        "en": "Can meat dish prepared with sour cherry.",
+        "ru": "Блюдо из мяса «джан» с вишней."
+      },
+      "chef": false
+    },
+    {
+      "id": 194,
+      "name": {
+        "az": "Sapalaq izqarada tərəvəzlə (sous: tar-tar, balzamik, alça tusu püresi)",
+        "en": "Sapalak Grilled with Vegetables (tartar, balsamic, cherry plum puree)",
+        "ru": "Сапалак на гриле с овощами (соусы: тар-тар, бальзамик, пюре из алычи)"
+      },
+      "category": "National",
+      "price": 45.0,
+      "image": "assets/images/sapalaq_grill.jpg",
+      "description": {
+        "az": "İzqarada bişirilmiş sapalaq, tərəvəzlər, tar-tar sousu, balzamik və alça tusu püresi ilə.",
+        "en": "Grilled sapalak with vegetables, served with tartar sauce, balsamic and cherry plum puree.",
+        "ru": "Сапалак на гриле с овощами, соус тар-тар, бальзамик и пюре из алычи."
+      },
+      "chef": false
+    },
+    {
+      "id": 195,
+      "name": {
+        "az": "Nar qovurma quzu əti ilə",
+        "en": "Pomegranate Qovurma with Lamb",
+        "ru": "Говурма с гранатом и бараниной"
+      },
+      "category": "National",
+      "price": 39.0,
+      "image": "assets/images/pomegranate_qovurma_lamb.jpg",
+      "description": {
+        "az": "Nar ilə hazırlanmış quzu qovurması.",
+        "en": "Lamb qovurma prepared with pomegranate.",
+        "ru": "Говурма из баранины с гранатом."
+      },
+      "chef": false
+    },
+    {
+      "id": 196,
+      "name": {
+        "az": "Nar qovurma can əti ilə",
+        "en": "Pomegranate Qovurma with Can Meat",
+        "ru": "Говурма с гранатом и мясом «джан»"
+      },
+      "category": "National",
+      "price": 47.0,
+      "image": "assets/images/pomegranate_qovurma_can.jpg",
+      "description": {
+        "az": "Nar ilə hazırlanmış can əti qovurması.",
+        "en": "Can meat qovurma prepared with pomegranate.",
+        "ru": "Говурма из мяса «джан» с гранатом."
+      },
+      "chef": false
+    },
+    {
+      "id": 197,
+      "name": {
+        "az": "Dolma şanı yarpağından (şefdən özəl)",
+        "en": "Leaf Dolma (Chef's Special)",
+        "ru": "Долма в листьях (особое от шефа)"
+      },
+      "category": "National",
+      "price": 18.0,
+      "image": "assets/images/leaf_dolma.jpg",
+      "description": {
+        "az": "Yarpaqda bükülmüş dolma, şefdən xüsusi təqdimat.",
+        "en": "Dolma wrapped in leaves, a special from the chef.",
+        "ru": "Долма, завёрнутая в листья, особое блюдо от шефа."
+      },
+      "chef": true
+    },
+    {
+      "id": 198,
+      "name": {
+        "az": "Şah plov (1 nəfər)",
+        "en": "Shah Plov (1 person)",
+        "ru": "Шах-плов (на 1 персону)"
+      },
+      "category": "National",
+      "price": 28.0,
+      "image": "assets/images/shah_plov.jpg",
+      "description": {
+        "az": "Ənənəvi Azərbaycan şah plovu, 1 nəfərlik.",
+        "en": "Traditional Azerbaijani shah plov for 1 person.",
+        "ru": "Традиционный азербайджанский шах-плов на 1 персону."
+      },
+      "chef": false
+    },
+    {
+      "id": 199,
+      "name": {
+        "az": "Şah plov (2 nəfər)",
+        "en": "Shah Plov (2 persons)",
+        "ru": "Шах-плов (на 2 персоны)"
+      },
+      "category": "National",
+      "price": 54.0,
+      "image": "assets/images/shah_plov.jpg",
+      "description": {
+        "az": "Ənənəvi Azərbaycan şah plovu, 2 nəfərlik.",
+        "en": "Traditional Azerbaijani shah plov for 2 persons.",
+        "ru": "Традиционный азербайджанский шах-плов на 2 персоны."
+      },
+      "chef": false
+    },
+    {
+      "id": 200,
+      "name": {
+        "az": "Şah plov (4 nəfər)",
+        "en": "Shah Plov (4 persons)",
+        "ru": "Шах-плов (на 4 персоны)"
+      },
+      "category": "National",
+      "price": 95.0,
+      "image": "assets/images/shah_plov.jpg",
+      "description": {
+        "az": "Ənənəvi Azərbaycan şah plovu, 4 nəfərlik.",
+        "en": "Traditional Azerbaijani shah plov for 4 persons.",
+        "ru": "Традиционный азербайджанский шах-плов на 4 персоны."
+      },
+      "chef": false
+    },
+    {
+      "id": 201,
+      "name": {
+        "az": "Toyuq langeti (kəndsayağı kartof, göbələk, parmezan, soğan, keşniş)",
+        "en": "Chicken Languette (country-style potatoes, mushrooms, parmesan, onion, cilantro)",
+        "ru": "Куриный лангет (картофель по-деревенски, грибы, пармезан, лук, кинза)"
+      },
+      "category": "World",
+      "price": 19.0,
+      "image": "assets/images/chicken_languette.jpg",
+      "description": {
+        "az": "Kəndsayağı kartof, göbələk, parmezan, soğan və keşniş ilə toyuq langeti.",
+        "en": "Chicken languette with country-style potatoes, mushrooms, parmesan, onion and cilantro.",
+        "ru": "Куриный лангет с картофелем по-деревенски, грибами, пармезаном, луком и кинзой."
+      },
+      "chef": false
+    },
+    {
+      "id": 202,
+      "name": {
+        "az": "Toyuq şnitsel kartof püresi ilə (sous: pomidor salsa)",
+        "en": "Chicken Schnitzel with Mashed Potatoes (tomato salsa)",
+        "ru": "Куриный шницель с картофельным пюре (соус: томатная сальса)"
+      },
+      "category": "World",
+      "price": 24.0,
+      "image": "assets/images/chicken_schnitzel.jpg",
+      "description": {
+        "az": "Qızılı toyuq şnitseli kartof püresi və pomidor salsa sousu ilə.",
+        "en": "Golden chicken schnitzel with mashed potatoes and tomato salsa.",
+        "ru": "Золотистый куриный шницель с картофельным пюре и томатной сальсой."
+      },
+      "chef": false
+    },
+    {
+      "id": 203,
+      "name": {
+        "az": "Pesto souslu toyuq filesi düyü ilə",
+        "en": "Chicken Fillet in Pesto Sauce with Rice",
+        "ru": "Куриное филе в соусе песто с рисом"
+      },
+      "category": "World",
+      "price": 24.0,
+      "image": "assets/images/pesto_chicken.jpg",
+      "description": {
+        "az": "Pesto sousunda toyuq filesi, düyü ilə.",
+        "en": "Chicken fillet in pesto sauce, served with rice.",
+        "ru": "Куриное филе в соусе песто, подаётся с рисом."
+      },
+      "chef": false
+    },
+    {
+      "id": 204,
+      "name": {
+        "az": "Fettuçini Alfredo",
+        "en": "Fettuccine Alfredo",
+        "ru": "Феттуччини Альфредо"
+      },
+      "category": "World",
+      "price": 19.0,
+      "image": "assets/images/fettuccine_alfredo.jpg",
+      "description": {
+        "az": "Qaymaqlı Alfredo sousunda klassik fettuçini.",
+        "en": "Classic fettuccine in creamy Alfredo sauce.",
+        "ru": "Классические феттуччини в сливочном соусе Альфредо."
+      },
+      "chef": false
+    },
+    {
+      "id": 205,
+      "name": {
+        "az": "Brokoli və qaymaqlı sousda toyuq filesi, düyü ilə",
+        "en": "Chicken Fillet in Broccoli Cream Sauce with Rice",
+        "ru": "Куриное филе в сливочном соусе с брокколи и рисом"
+      },
+      "category": "World",
+      "price": 24.0,
+      "image": "assets/images/broccoli_chicken.jpg",
+      "description": {
+        "az": "Brokoli və qaymaqlı sousda toyuq filesi, düyü ilə.",
+        "en": "Chicken fillet in creamy broccoli sauce, served with rice.",
+        "ru": "Куриное филе в сливочном соусе с брокколи, подаётся с рисом."
+      },
+      "chef": false
+    },
+    {
+      "id": 206,
+      "name": {
+        "az": "Gordon blu kartof püresi ilə",
+        "en": "Cordon Bleu with Mashed Potatoes",
+        "ru": "Кордон блю с картофельным пюре"
+      },
+      "category": "World",
+      "price": 24.0,
+      "image": "assets/images/cordon_bleu.jpg",
+      "description": {
+        "az": "Klassik Gordon blu kartof püresi ilə.",
+        "en": "Classic cordon bleu served with mashed potatoes.",
+        "ru": "Классический кордон блю с картофельным пюре."
+      },
+      "chef": false
+    },
+    {
+      "id": 207,
+      "name": {
+        "az": "Ribeye steyk qril tərəvəzlər ilə (sous: tar-tar, alça azması, balzamik)",
+        "en": "Ribeye Steak with Grilled Vegetables (tartar, cherry plum, balsamic)",
+        "ru": "Стейк рибай с овощами на гриле (соусы: тар-тар, алыча, бальзамик)"
+      },
+      "category": "Steak",
+      "price": 95.0,
+      "image": "assets/images/ribeye_steak.jpg",
+      "description": {
+        "az": "28 gün dinlənmiş ətdən steyk, qril tərəvəzlərlə, sous: tar-tar, alça azması, balzamik.",
+        "en": "28-day aged steak served with grilled vegetables and sauces: tartar, cherry plum, balsamic.",
+        "ru": "Стейк 28-дневной выдержки с овощами на гриле и соусы: тар-тар, алыча, бальзамик."
+      },
+      "chef": false
+    },
+    {
+      "id": 208,
+      "name": {
+        "az": "Dallas steyk qril tərəvəzlər ilə (sous: tar-tar, alça azması, balzamik)",
+        "en": "Dallas Steak with Grilled Vegetables (tartar, cherry plum, balsamic)",
+        "ru": "Стейк Даллас с овощами на гриле (соусы: тар-тар, алыча, бальзамик)"
+      },
+      "category": "Steak",
+      "price": 90.0,
+      "image": "assets/images/dallas_steak.jpg",
+      "description": {
+        "az": "28 gün dinlənmiş ətdən steyk, qril tərəvəzlərlə, sous: tar-tar, alça azması, balzamik.",
+        "en": "28-day aged steak served with grilled vegetables and sauces: tartar, cherry plum, balsamic.",
+        "ru": "Стейк 28-дневной выдержки с овощами на гриле и соусы: тар-тар, алыча, бальзамик."
+      },
+      "chef": false
+    },
+    {
+      "id": 209,
+      "name": {
+        "az": "Medalyon steyk qril tərəvəzlər ilə (sous: tar-tar, alça azması, balzamik)",
+        "en": "Medallion Steak with Grilled Vegetables (tartar, cherry plum, balsamic)",
+        "ru": "Стейк медальон с овощами на гриле (соусы: тар-тар, алыча, бальзамик)"
+      },
+      "category": "Steak",
+      "price": 57.0,
+      "image": "assets/images/medallion_steak.jpg",
+      "description": {
+        "az": "28 gün dinlənmiş ətdən steyk, qril tərəvəzlərlə, sous: tar-tar, alça azması, balzamik.",
+        "en": "28-day aged steak served with grilled vegetables and sauces: tartar, cherry plum, balsamic.",
+        "ru": "Стейк 28-дневной выдержки с овощами на гриле и соусы: тар-тар, алыча, бальзамик."
+      },
+      "chef": false
+    },
+    {
+      "id": 210,
+      "name": {
+        "az": "Tabaka steyk qril tərəvəzlər ilə",
+        "en": "Tabaka Steak with Grilled Vegetables",
+        "ru": "Стейк табака с овощами на гриле"
+      },
+      "category": "Steak",
+      "price": 45.0,
+      "image": "assets/images/tabaka_steak.jpg",
+      "description": {
+        "az": "28 gün dinlənmiş ətdən steyk, qril tərəvəzlərlə.",
+        "en": "28-day aged steak served with grilled vegetables.",
+        "ru": "Стейк 28-дневной выдержки с овощами на гриле."
+      },
+      "chef": false
+    },
+    {
+      "id": 211,
+      "name": {
+        "az": "Tərəvəz qrildə",
+        "en": "Grilled Vegetables",
+        "ru": "Овощи на гриле"
+      },
+      "category": "Sides",
+      "price": 9.0,
+      "image": "assets/images/grilled_vegetables.jpg",
+      "description": {
+        "az": "Qrildə bişirilmiş mövsümi tərəvəzlər.",
+        "en": "Seasonal vegetables cooked on the grill.",
+        "ru": "Сезонные овощи, приготовленные на гриле."
+      },
+      "chef": false
+    },
+    {
+      "id": 212,
+      "name": {
+        "az": "Kartof fri",
+        "en": "French Fries",
+        "ru": "Картофель фри"
+      },
+      "category": "Sides",
+      "price": 7.0,
+      "image": "assets/images/french_fries.jpg",
+      "description": {
+        "az": "Xırtıldayan kartof fri.",
+        "en": "Crispy french fries.",
+        "ru": "Хрустящий картофель фри."
+      },
+      "chef": false
+    },
+    {
+      "id": 213,
+      "name": {
+        "az": "Qaymaqlı ispanaq",
+        "en": "Creamed Spinach",
+        "ru": "Шпинат в сливках"
+      },
+      "category": "Sides",
+      "price": 12.0,
+      "image": "assets/images/creamed_spinach.jpg",
+      "description": {
+        "az": "Qaymaqlı sousda ispanaq.",
+        "en": "Spinach in a creamy sauce.",
+        "ru": "Шпинат в сливочном соусе."
+      },
+      "chef": false
+    },
+    {
+      "id": 214,
+      "name": {
+        "az": "Düyü",
+        "en": "Rice",
+        "ru": "Рис"
+      },
+      "category": "Sides",
+      "price": 6.0,
+      "image": "assets/images/rice.jpg",
+      "description": {
+        "az": "Bişirilmiş düyü qarniri.",
+        "en": "Steamed rice side.",
+        "ru": "Гарнир из отварного риса."
+      },
+      "chef": false
+    },
+    {
+      "id": 215,
+      "name": {
+        "az": "Kartof püresi",
+        "en": "Mashed Potatoes",
+        "ru": "Картофельное пюре"
+      },
+      "category": "Sides",
+      "price": 8.0,
+      "image": "assets/images/mashed_potatoes.jpg",
+      "description": {
+        "az": "Yumşaq kartof püresi.",
+        "en": "Smooth mashed potatoes.",
+        "ru": "Нежное картофельное пюре."
+      },
+      "chef": false
+    },
+    {
+      "id": 216,
+      "name": {
+        "az": "Kartof kənd sayağı",
+        "en": "Country-Style Potatoes",
+        "ru": "Картофель по-деревенски"
+      },
+      "category": "Sides",
+      "price": 7.0,
+      "image": "assets/images/country_potatoes.jpg",
+      "description": {
+        "az": "Kənd sayağı qızardılmış kartof.",
+        "en": "Country-style fried potatoes.",
+        "ru": "Жареный картофель по-деревенски."
+      },
+      "chef": false
+    },
+    {
+      "id": 217,
+      "name": {
+        "az": "Qızardılmış bütöv farel balığı",
+        "en": "Fried Whole Trout",
+        "ru": "Жареная форель целиком"
+      },
+      "category": "Fish",
+      "price": 21.0,
+      "image": "assets/images/whole_trout.jpg",
+      "description": {
+        "az": "Bütöv qızardılmış farel balığı.",
+        "en": "Whole fried trout.",
+        "ru": "Жареная форель целиком."
+      },
+      "chef": false
+    },
+    {
+      "id": 218,
+      "name": {
+        "az": "Farel file kəndsayağı kartof ilə",
+        "en": "Trout Fillet with Country-Style Potatoes",
+        "ru": "Филе форели с картофелем по-деревенски"
+      },
+      "category": "Fish",
+      "price": 19.0,
+      "image": "assets/images/trout_fillet.jpg",
+      "description": {
+        "az": "Farel filesi kəndsayağı kartof ilə.",
+        "en": "Trout fillet served with country-style potatoes.",
+        "ru": "Филе форели с картофелем по-деревенски."
+      },
+      "chef": false
+    },
+    {
+      "id": 219,
+      "name": {
+        "az": "Qızardılmış qızılbalıq filesi (kəndsayağı kartof, qaymaqlı ispanaq, limonlu sous)",
+        "en": "Fried Salmon Fillet (country-style potatoes, creamed spinach, lemon sauce)",
+        "ru": "Жареное филе лосося (картофель по-деревенски, шпинат в сливках, лимонный соус)"
+      },
+      "category": "Fish",
+      "price": 49.0,
+      "image": "assets/images/salmon_fillet.jpg",
+      "description": {
+        "az": "Qızardılmış qızılbalıq filesi, kəndsayağı kartof, qaymaqlı ispanaq və limonlu sous ilə.",
+        "en": "Fried salmon fillet with country-style potatoes, creamed spinach and lemon sauce.",
+        "ru": "Жареное филе лосося с картофелем по-деревенски, шпинатом в сливках и лимонным соусом."
+      },
+      "chef": false
+    },
+    {
+      "id": 220,
+      "name": {
+        "az": "Dorado",
+        "en": "Dorado",
+        "ru": "Дорадо"
+      },
+      "category": "Fish",
+      "price": 38.0,
+      "image": "assets/images/dorado.jpg",
+      "description": {
+        "az": "Bütöv dorado balığı.",
+        "en": "Whole dorado fish.",
+        "ru": "Дорадо целиком."
+      },
+      "chef": false
+    },
+    {
+      "id": 221,
+      "name": {
+        "az": "Dorado filesi kəndsayağı kartof ilə",
+        "en": "Dorado Fillet with Country-Style Potatoes",
+        "ru": "Филе дорадо с картофелем по-деревенски"
+      },
+      "category": "Fish",
+      "price": 28.0,
+      "image": "assets/images/dorado_fillet.jpg",
+      "description": {
+        "az": "Dorado filesi kəndsayağı kartof ilə.",
+        "en": "Dorado fillet served with country-style potatoes.",
+        "ru": "Филе дорадо с картофелем по-деревенски."
+      },
+      "chef": false
+    },
+    {
+      "id": 222,
+      "name": {
+        "az": "Seabass",
+        "en": "Sea Bass",
+        "ru": "Сибас"
+      },
+      "category": "Fish",
+      "price": 38.0,
+      "image": "assets/images/seabass.jpg",
+      "description": {
+        "az": "Bütöv seabass balığı.",
+        "en": "Whole sea bass.",
+        "ru": "Сибас целиком."
+      },
+      "chef": false
+    },
+    {
+      "id": 223,
+      "name": {
+        "az": "Seabass filesi kəndsayağı kartof ilə",
+        "en": "Sea Bass Fillet with Country-Style Potatoes",
+        "ru": "Филе сибаса с картофелем по-деревенски"
+      },
+      "category": "Fish",
+      "price": 28.0,
+      "image": "assets/images/seabass_fillet.jpg",
+      "description": {
+        "az": "Seabass filesi kəndsayağı kartof ilə.",
+        "en": "Sea bass fillet served with country-style potatoes.",
+        "ru": "Филе сибаса с картофелем по-деревенски."
+      },
+      "chef": false
+    },
+    {
+      "id": 224,
+      "name": {
+        "az": "Qaymaqlı tavada krevetlər (sarımsaq ilə)",
+        "en": "Creamy Pan-Fried Prawns (with garlic)",
+        "ru": "Креветки на сковороде в сливках (с чесноком)"
+      },
+      "category": "Fish",
+      "price": 38.0,
+      "image": "assets/images/creamy_prawns.jpg",
+      "description": {
+        "az": "Sarımsaq ilə qaymaqlı tavada bişirilmiş krevetlər.",
+        "en": "Prawns cooked in a creamy garlic pan sauce.",
+        "ru": "Креветки, приготовленные на сковороде в сливочно-чесночном соусе."
+      },
+      "chef": false
+    },
+    {
       "id": 38,
       "name": {
-        "az": "Hisə verilmiş pendir",
+        "az": "Saçaq pendir",
         "en": "Smoked Cheese",
         "ru": "Копчёный сыр"
       },
-      "category": "Appetizer",
+      "category": "BeerSnacks",
       "price": 7.0,
       "image": "assets/images/smoked_cheese.jpg",
       "description": {
@@ -699,11 +1382,11 @@
     {
       "id": 39,
       "name": {
-        "az": "Qızardılmış hisə verilmiş pendir",
+        "az": "Saçaq pendir qızardılmış",
         "en": "Fried Smoked Cheese",
         "ru": "Жареный копчёный сыр"
       },
-      "category": "Appetizer",
+      "category": "BeerSnacks",
       "price": 8.0,
       "image": "assets/images/fried_smoked_cheese.jpg",
       "description": {
@@ -720,7 +1403,7 @@
         "en": "Fried Dushbara",
         "ru": "Жареная дюшбара"
       },
-      "category": "Appetizer",
+      "category": "BeerSnacks",
       "price": 9.0,
       "image": "assets/images/fried_dushbara.jpg",
       "description": {
@@ -737,7 +1420,7 @@
         "en": "Antep Pistachio (80g)",
         "ru": "Антепская фисташка (80 г)"
       },
-      "category": "Appetizer",
+      "category": "BeerSnacks",
       "price": 19.0,
       "image": "assets/images/antep_80g.jpg",
       "description": {
@@ -754,7 +1437,7 @@
         "en": "Chips",
         "ru": "Чипсы"
       },
-      "category": "Appetizer",
+      "category": "BeerSnacks",
       "price": 6.0,
       "image": "assets/images/chips.jpg",
       "description": {
@@ -771,7 +1454,7 @@
         "en": "Chicken Popcorn and Sweet Chili",
         "ru": "Куриный попкорн со сладким чили"
       },
-      "category": "Appetizer",
+      "category": "BeerSnacks",
       "price": 9.0,
       "image": "assets/images/chicken_popcorn_snack.jpg",
       "description": {
@@ -784,11 +1467,11 @@
     {
       "id": 44,
       "name": {
-        "az": "Qarışıq çərəzlər",
+        "az": "Qarışıq ləpə",
         "en": "Mixed Nuts",
         "ru": "Ассорти орехов"
       },
-      "category": "Appetizer",
+      "category": "Nuts",
       "price": 28.0,
       "image": "assets/images/mixed_nuts.jpg",
       "description": {
@@ -805,7 +1488,7 @@
         "en": "Dry Fruits",
         "ru": "Сухофрукты"
       },
-      "category": "Appetizer",
+      "category": "Nuts",
       "price": 26.0,
       "image": "assets/images/dry_fruits.jpg",
       "description": {
@@ -818,11 +1501,11 @@
     {
       "id": 46,
       "name": {
-        "az": "Antep püstəsi (50 q)",
-        "en": "Antep Pistachio Nuts (50g)",
-        "ru": "Антепская фисташка (50 г)"
+        "az": "Antep püstə ləpəsi (50 q)",
+        "en": "Antep Pistachio Kernels (50g)",
+        "ru": "Ядра антепской фисташки (50 г)"
       },
-      "category": "Appetizer",
+      "category": "Nuts",
       "price": 40.0,
       "image": "assets/images/antep_50g.jpg",
       "description": {
@@ -835,17 +1518,17 @@
     {
       "id": 47,
       "name": {
-        "az": "Qovrulmuş çərəzlər (100 q)",
-        "en": "Roasted Nuts (100g)",
-        "ru": "Жареные орехи (100 г)"
+        "az": "Qovrulmuş fındıq (100 q)",
+        "en": "Roasted Hazelnuts (100g)",
+        "ru": "Жареный фундук (100 г)"
       },
-      "category": "Appetizer",
+      "category": "Nuts",
       "price": 16.0,
       "image": "assets/images/roasted_nuts_100g.jpg",
       "description": {
-        "az": "Mükəmməl duzlanmış və təzə qovrulmuş qarışıq çərəzlər.",
-        "en": "Perfectly salted and freshly roasted mixed nuts.",
-        "ru": "Идеально посоленные свежие жареные орехи."
+        "az": "Mükəmməl duzlanmış və təzə qovrulmuş fındıq.",
+        "en": "Perfectly salted and freshly roasted hazelnuts.",
+        "ru": "Идеально посоленный свежеобжаренный фундук."
       },
       "chef": false
     },
@@ -1118,91 +1801,6 @@
         "az": "Köpüklü şərab",
         "en": "Sparkling Wine",
         "ru": "Игристое вино"
-      },
-      "chef": false
-    },
-    {
-      "id": 64,
-      "name": {
-        "az": "Hillside Rose Blush (Qədəh)",
-        "en": "Hillside Rose Blush (Glass)",
-        "ru": "Hillside Rose Blush (Бокал)"
-      },
-      "category": "Drinks",
-      "price": 14.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Qızılgül şərabı",
-        "en": "Rose Wine",
-        "ru": "Розовое вино"
-      },
-      "chef": false
-    },
-    {
-      "id": 65,
-      "name": {
-        "az": "Hillside Rose Blush (Şüşə)",
-        "en": "Hillside Rose Blush (Bottle)",
-        "ru": "Hillside Rose Blush (Бутылка)"
-      },
-      "category": "Drinks",
-      "price": 45.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Qızılgül şərabı",
-        "en": "Rose Wine",
-        "ru": "Розовое вино"
-      },
-      "chef": false
-    },
-    {
-      "id": 66,
-      "name": {
-        "az": "Chabiant Rose Dry (Qədəh)",
-        "en": "Chabiant Rose Dry (Glass)",
-        "ru": "Chabiant Rose Dry (Бокал)"
-      },
-      "category": "Drinks",
-      "price": 12.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Qızılgül şərabı",
-        "en": "Rose Wine",
-        "ru": "Розовое вино"
-      },
-      "chef": false
-    },
-    {
-      "id": 67,
-      "name": {
-        "az": "Chabiant Rose Dry (Şüşə)",
-        "en": "Chabiant Rose Dry (Bottle)",
-        "ru": "Chabiant Rose Dry (Бутылка)"
-      },
-      "category": "Drinks",
-      "price": 43.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Qızılgül şərabı",
-        "en": "Rose Wine",
-        "ru": "Розовое вино"
-      },
-      "chef": false
-    },
-    {
-      "id": 68,
-      "name": {
-        "az": "Chabiant Madrasa Rose Dry (Şüşə)",
-        "en": "Chabiant Madrasa Rose Dry (Bottle)",
-        "ru": "Chabiant Madrasa Rose Dry (Бутылка)"
-      },
-      "category": "Drinks",
-      "price": 58.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Premium yerli qızılgül şərabı",
-        "en": "Premium local Rose",
-        "ru": "Премиальное местное розовое вино"
       },
       "chef": false
     },
@@ -1579,6 +2177,91 @@
         "ru": "Органическое премиальное вино"
       },
       "chef": true
+    },
+    {
+      "id": 64,
+      "name": {
+        "az": "Hillside Rose Blush (Qədəh)",
+        "en": "Hillside Rose Blush (Glass)",
+        "ru": "Hillside Rose Blush (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 14.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 65,
+      "name": {
+        "az": "Hillside Rose Blush (Şüşə)",
+        "en": "Hillside Rose Blush (Bottle)",
+        "ru": "Hillside Rose Blush (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 45.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 66,
+      "name": {
+        "az": "Chabiant Rose Dry (Qədəh)",
+        "en": "Chabiant Rose Dry (Glass)",
+        "ru": "Chabiant Rose Dry (Бокал)"
+      },
+      "category": "Drinks",
+      "price": 12.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 67,
+      "name": {
+        "az": "Chabiant Rose Dry (Şüşə)",
+        "en": "Chabiant Rose Dry (Bottle)",
+        "ru": "Chabiant Rose Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 43.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Qızılgül şərabı",
+        "en": "Rose Wine",
+        "ru": "Розовое вино"
+      },
+      "chef": false
+    },
+    {
+      "id": 68,
+      "name": {
+        "az": "Chabiant Madrasa Rose Dry (Şüşə)",
+        "en": "Chabiant Madrasa Rose Dry (Bottle)",
+        "ru": "Chabiant Madrasa Rose Dry (Бутылка)"
+      },
+      "category": "Drinks",
+      "price": 58.0,
+      "image": "assets/images/drinks.jpg",
+      "description": {
+        "az": "Premium yerli qızılgül şərabı",
+        "en": "Premium local Rose",
+        "ru": "Премиальное местное розовое вино"
+      },
+      "chef": false
     },
     {
       "id": 91,
@@ -2178,9 +2861,9 @@
     {
       "id": 126,
       "name": {
-        "az": "Sierra Tekila (Qədəh)",
-        "en": "Sierra Tequila (Glass)",
-        "ru": "Sierra Tequila (Бокал)"
+        "az": "Sierra Tekila",
+        "en": "Sierra Tequila",
+        "ru": "Sierra Tequila"
       },
       "category": "Drinks",
       "price": 9.0,
@@ -2193,28 +2876,11 @@
       "chef": false
     },
     {
-      "id": 127,
-      "name": {
-        "az": "Sierra Tekila (Şüşə)",
-        "en": "Sierra Tequila (Bottle)",
-        "ru": "Sierra Tequila (Бутылка)"
-      },
-      "category": "Drinks",
-      "price": 45.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Tekila şüşəsi",
-        "en": "Tequila Bottle",
-        "ru": "Бутылка текилы"
-      },
-      "chef": false
-    },
-    {
       "id": 128,
       "name": {
-        "az": "Olmeca Blanco (Qədəh)",
-        "en": "Olmeca Blanco (Glass)",
-        "ru": "Olmeca Blanco (Бокал)"
+        "az": "Olmeca Blanco",
+        "en": "Olmeca Blanco",
+        "ru": "Olmeca Blanco"
       },
       "category": "Drinks",
       "price": 11.0,
@@ -2227,28 +2893,11 @@
       "chef": false
     },
     {
-      "id": 129,
-      "name": {
-        "az": "Olmeca Blanco (Şüşə)",
-        "en": "Olmeca Blanco (Bottle)",
-        "ru": "Olmeca Blanco (Бутылка)"
-      },
-      "category": "Drinks",
-      "price": 43.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Tekila şüşəsi",
-        "en": "Tequila Bottle",
-        "ru": "Бутылка текилы"
-      },
-      "chef": false
-    },
-    {
       "id": 130,
       "name": {
-        "az": "Patrón Silver (Qədəh)",
-        "en": "Patron Silver (Glass)",
-        "ru": "Patron Silver (Бокал)"
+        "az": "Patrón Silver",
+        "en": "Patron Silver",
+        "ru": "Patron Silver"
       },
       "category": "Drinks",
       "price": 18.0,
@@ -2257,23 +2906,6 @@
         "az": "Premium tekila şotu",
         "en": "Premium Tequila Shot",
         "ru": "Премиальный шот текилы"
-      },
-      "chef": false
-    },
-    {
-      "id": 131,
-      "name": {
-        "az": "Patrón Silver (Şüşə)",
-        "en": "Patron Silver (Bottle)",
-        "ru": "Patron Silver (Бутылка)"
-      },
-      "category": "Drinks",
-      "price": 58.0,
-      "image": "assets/images/drinks.jpg",
-      "description": {
-        "az": "Premium tekila şüşəsi",
-        "en": "Premium Tequila Bottle",
-        "ru": "Бутылка премиальной текилы"
       },
       "chef": false
     },
